@@ -37,6 +37,10 @@
     # node
     nodejs
 
+    # java
+    jdk
+    openjfx
+
     # python
     python313
 
@@ -64,6 +68,7 @@
     imhex
 
     # gtk
+    gtk3
     gruvbox-gtk-theme
     nwg-look
     xorg.xrdb
