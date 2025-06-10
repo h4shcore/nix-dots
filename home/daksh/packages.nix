@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
   fonts.fontconfig.enable = true;
-
+  nixpkgs.config.allowUnfree = true;
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = with pkgs; [
@@ -24,6 +24,9 @@
     
     # c/cpp
     gcc
+    gnumake
+    cmake
+    libtool
 
     # rust
     rustup
@@ -49,6 +52,7 @@
     playerctl
 
     # tools 
+    yazi
     yt-dlp
     ani-cli
     dust
@@ -89,18 +93,10 @@
     # editor
     neovim
     zed-editor
-    # emacs
-    # (emacs.pkgs.withPackages (epkgs: with epkgs; [
-    #   use-package
-    #   evil
-    #   gruvbox-theme
-    #   lsp-mode
-    #   tree-sitter
-    #   tree-sitter-langs
-    #   rustic
-    # ]))
+    vscode
 
     # misc
+    stremio
     thunderbird
     vesktop
     webcord

@@ -22,7 +22,7 @@ programs.emacs = {
     lsp-mode
     tree-sitter
     tree-sitter-langs
-    tree-sitter-grammars
+    # tree-sitter-grammars
     rustic
   ]);
 };

@@ -21,7 +21,6 @@
     ./packages.nix
     ../../modules/waybar/waybar.nix
     ../../modules/ags/ags.nix
-    ../../modules/yazi/yazi.nix
     ../../modules/emacs/emacs.nix
     ../../modules/bat/bat.nix
     ../../modules/btm/btm.nix
