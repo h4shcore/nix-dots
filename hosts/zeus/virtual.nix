@@ -10,12 +10,13 @@
   # Install required packages
   environment.systemPackages = with pkgs; [
     virt-manager         # GUI tool for managing VMs
+    virt-viewer          
     qemu_full            # Full QEMU emulator
     libvirt              # Libvirt tools and libraries
     spice                # SPICE protocol
     spice-gtk
     spice-protocol
-    gnome.adwaita-icon-theme
+    # gnome.adwaita-icon-theme
   ];
 
   # Enable libvirtd and configure QEMU
