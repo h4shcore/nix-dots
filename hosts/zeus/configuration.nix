@@ -6,8 +6,8 @@
   ...
 }:
 let
-  colorScheme = inputs.nix-colors.colorSchemes.gruvbox-material-dark-hard;
-  # colorScheme = inputs.nix-colors.colorSchemes.gruvbox-dark-hard;
+  # colorScheme = inputs.nix-colors.colorSchemes.gruvbox-material-dark-hard;
+  colorScheme = inputs.nix-colors.colorSchemes.gruvbox-dark-hard;
 in
 {
   imports =
@@ -19,6 +19,7 @@ in
       ./display.nix
       ./network.nix
       ./packages.nix
+      ./virtual.nix
       inputs.home-manager.nixosModules.home-manager
     ];
 
