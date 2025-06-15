@@ -39,6 +39,7 @@
       plugins = [
         "git"
         "zoxide"
+        "colored-man-pages"
       ];
       # theme = "robbyrussell";
     };
