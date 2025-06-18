@@ -110,6 +110,12 @@
     youtube-music
     mpv
 
+    # game 
+    wine
+    vulkan-tools
+    openal
+    monotools
+
     # fonts
     noto-fonts
     noto-fonts-cjk-sans
