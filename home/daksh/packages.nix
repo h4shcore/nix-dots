@@ -111,11 +111,13 @@
     mpv
 
     # game 
-    wine
-    vulkan-tools
-    openal
-    dxvk
-    mono
+    # wine64
+    # winetricks
+    # vulkan-tools
+    # openal
+    # dxvk
+    # mono
+    lutris
 
     # fonts
     noto-fonts
