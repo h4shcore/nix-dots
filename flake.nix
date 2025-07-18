@@ -12,7 +12,7 @@
     #   inputs.nixpkgs.follows = "nixpkgs";
     # };
     nix-colors.url = "github:misterio77/nix-colors";
-    ags.url = "github:Aylur/ags";
+    # ags.url = "github:Aylur/ags";
   };
 
   outputs = { 
@@ -20,7 +20,7 @@
     nixpkgs,
     home-manager,
     nix-colors,
-    ags,
+    # ags,
     ...
   }
     @inputs: 

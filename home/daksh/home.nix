@@ -13,14 +13,14 @@
   
   imports = [
     # inputs.nixvim.homeManagerModules.nixvim
-    inputs.nix-colors.homeManagerModules.default
-    inputs.ags.homeManagerModules.default 
+    # inputs.nix-colors.homeManagerModules.default
+    # inputs.ags.homeManagerModules.default 
     ./files.nix
-    ./appearance.nix
+    # ./appearance.nix
     ./others.nix
     ./packages.nix
     ../../modules/waybar/waybar.nix
-    ../../modules/ags/ags.nix
+    # ../../modules/ags/ags.nix
     ../../modules/emacs/emacs.nix
     ../../modules/bat/bat.nix
     ../../modules/btm/btm.nix
@@ -31,8 +31,8 @@
     ../../modules/zoxide/zoxide.nix
     ../../modules/dunst/dunst.nix
     ../../modules/zathura/zathura.nix
-    # ../../modules/hypridle/hypridle.nix
-    # ../../modules/hyprlock/hyprlock.nix
+    ../../modules/hypridle/hypridle.nix
+    ../../modules/hyprlock/hyprlock.nix
     # ../../modules/thunar/thunar.nix
     # ../../modules/neovim/neovim.nix
   ];

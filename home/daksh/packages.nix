@@ -96,10 +96,7 @@
     qbittorrent
 
     # editor
-    glow # markdown viewer
     neovim
-    zed-editor
-    vscode
 
     # misc
     stremio
@@ -117,7 +114,7 @@
     # openal
     # dxvk
     # mono
-    lutris
+    # lutris
 
     # fonts
     noto-fonts
