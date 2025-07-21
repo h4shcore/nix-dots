@@ -14,14 +14,14 @@
       maplocalleader = " ";
     };
 
-    # colorschemes = {
-    #   gruvbox = {
-    #     enable = true;
-    #     settings = {
-    #       transparent_mode = true;
-    #     };
-    #   };
-    # };
+    colorschemes = {
+      gruvbox = {
+        enable = true;
+        settings = {
+          transparent_mode = true;
+        };
+      };
+    };
 
     extraConfigLua = ''
       vim.g.floaterm_keymap_toggle = "<c-t>"

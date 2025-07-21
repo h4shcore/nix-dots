@@ -4,16 +4,16 @@
   inputs,
   ...
 }:
-# let
-#   colorScheme = inputs.nix-colors.colorSchemes.gruvbox-material-dark-hard;
-# in 
+let
+  colorScheme = inputs.nix-colors.colorSchemes.gruvbox-material-dark-hard;
+in 
 {
   home.username = "daksh";
   home.homeDirectory = "/home/daksh";
   
   imports = [
     # inputs.nixvim.homeManagerModules.nixvim
-    # inputs.nix-colors.homeManagerModules.default
+    inputs.nix-colors.homeManagerModules.default
     # inputs.ags.homeManagerModules.default 
     ./files.nix
     ./appearance.nix
