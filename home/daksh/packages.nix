@@ -88,6 +88,7 @@
 
     # terminal
     kitty
+    wezterm
 
     # browser
     firefox
@@ -102,6 +103,7 @@
     vscode
 
     # misc
+    zathura
     stremio
     thunderbird
     vesktop
