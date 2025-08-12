@@ -8,7 +8,7 @@
 
        config.font = wezterm.font 'JetBrainsMono Nerd Font'
        config.font_size = 18 
-       -- config.color_scheme = 'Gruvbox dark, hard (base16)'
+       config.color_scheme = 'Gruvbox dark, hard (base16)'
        config.enable_tab_bar = false
        config.window_padding = {
          left = 30,

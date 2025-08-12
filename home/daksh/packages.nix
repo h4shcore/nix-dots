@@ -56,7 +56,6 @@
     wl-clipboard
     brightnessctl
     playerctl
-    matugen
     glib
     pywalfox-native
 
