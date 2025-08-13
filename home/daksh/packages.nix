@@ -57,7 +57,6 @@
     brightnessctl
     playerctl
     glib
-    pywalfox-native
 
     # tools 
     cava
@@ -112,7 +111,6 @@
     thunderbird
     vesktop
     webcord
-    quassel
     youtube-music
     mpv
 
