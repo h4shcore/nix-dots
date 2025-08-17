@@ -112,6 +112,7 @@
     vesktop
     webcord
     youtube-music
+    spotify
     mpv
 
     # game 
