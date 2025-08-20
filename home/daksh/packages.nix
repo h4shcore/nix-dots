@@ -55,6 +55,8 @@
     wf-recorder
     wl-clipboard
     brightnessctl
+    hyprpolkitagent
+    networkmanagerapplet
     playerctl
     glib
 
@@ -79,7 +81,8 @@
     xorg.xrdb
 
     # image viewer
-    nsxiv
+    # nsxiv
+    swayimg
 
     # application launcher
     rofi
@@ -88,6 +91,7 @@
     pavucontrol
     pulsemixer
     pamixer
+    wireplumber
 
     # terminal
     kitty
@@ -116,13 +120,8 @@
     mpv
 
     # game 
-    # wine64
-    # winetricks
-    # vulkan-tools
-    # openal
-    # dxvk
-    # mono
-    # lutris
+    wineWowPackages.waylandFull
+    winetricks
 
     # fonts
     noto-fonts

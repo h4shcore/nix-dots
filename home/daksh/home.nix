@@ -20,7 +20,6 @@ in
     ./others.nix
     ./packages.nix
     ../../modules/waybar/waybar.nix
-    # ../../modules/ags/ags.nix
     ../../modules/emacs/emacs.nix
     ../../modules/bat/bat.nix
     ../../modules/btm/btm.nix
@@ -32,6 +31,7 @@ in
     ../../modules/dunst/dunst.nix
     ../../modules/zathura/zathura.nix
     ../../modules/hypridle/hypridle.nix
+    ../../modules/zsh/zsh.nix
     # ../../modules/minecraft/prismlauncher.nix
     # ../../modules/hyprlock/hyprlock.nix
     # ../../modules/thunar/thunar.nix

@@ -16,6 +16,7 @@
 
   # Enable hyprland
   programs.hyprland.enable = true;
+  programs.hyprland.withUWSM = true;
 
   # portals
   xdg.portal = {
