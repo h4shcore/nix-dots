@@ -39,17 +39,25 @@
             "g"
             "s"
           ];
-          run = "cd ~/Documents/studies/";
-          desc = "Cd to ~/Documents/studies/";
+          run = "cd ~/Documents/Studies/";
+          desc = "Cd to ~/Documents/Studies/";
         }
-        # {
-        #   on = [
-        #     "g"
-        #     "p"
-        #   ];
-        #   run = "cd ~/Proj";
-        #   desc = "Cd to ~/Proj";
-        # }
+        {
+          on = [
+            "g"
+            "p"
+          ];
+          run = "cd ~/Proj";
+          desc = "Cd to ~/Proj";
+        }
+        {
+          on = [
+            "g"
+            "p"
+          ];
+          run = "cd ~/Proj";
+          desc = "Cd to ~/Proj";
+        }
         {
           on = "<Esc>";
           run = "close";

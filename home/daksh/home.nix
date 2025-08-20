@@ -15,10 +15,11 @@ in
     # inputs.nixvim.homeManagerModules.nixvim
     inputs.nix-colors.homeManagerModules.default
     # inputs.ags.homeManagerModules.default 
+    ../common.nix
     ./files.nix
     ./appearance.nix
-    ./others.nix
     ./packages.nix
+    ./others.nix
     ../../modules/waybar/waybar.nix
     ../../modules/emacs/emacs.nix
     ../../modules/bat/bat.nix
@@ -31,7 +32,11 @@ in
     ../../modules/dunst/dunst.nix
     ../../modules/zathura/zathura.nix
     ../../modules/hypridle/hypridle.nix
+    ../../modules/hyprland/hyprland.nix
+    ../../modules/hypridle/hypridle.nix
+    ../../modules/hyprpaper/hyprpaper.nix
     ../../modules/zsh/zsh.nix
+    ../../modules/wofi/wofi.nix
     # ../../modules/minecraft/prismlauncher.nix
     # ../../modules/hyprlock/hyprlock.nix
     # ../../modules/thunar/thunar.nix
