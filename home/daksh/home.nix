@@ -21,6 +21,7 @@
     ../../modules/nvim/nixvim.nix
     ../../modules/fish/fish.nix
     ../../modules/foot/foot.nix
+    ../../modules/direnv/direnv.nix
     ../../modules/zoxide/zoxide.nix
     inputs.nixvim.homeModules.nixvim
   ];

@@ -11,7 +11,6 @@
     brave
     yazi
     nix-search-cli
-    direnv
     spotify
     equibop
     qbittorrent
