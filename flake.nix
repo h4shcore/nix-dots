@@ -7,10 +7,6 @@
       url = "github:nix-community/home-manager/release-25.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    mangowc = {
-      url = "github:DreamMaoMao/mangowc";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     nixvim = {
       url = "github:nix-community/nixvim/nixos-25.05";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -22,7 +18,6 @@
       self,
       nixpkgs,
       home-manager,
-      mangowc,
       ...
     }@inputs:
     {
@@ -33,7 +28,6 @@
         modules = [
           ./hosts/zeus/configuration.nix
           inputs.home-manager.nixosModules.home-manager
-          inputs.mangowc.nixosModules.default
         ];
       };
     };

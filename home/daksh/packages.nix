@@ -18,13 +18,6 @@
 
     gcc
 
-    # mangowc
-    wmenu
-    wl-clipboard
-    grim
-    slurp
-    swaybg
-
     # gaming
     wineWowPackages.waylandFull
     winetricks
