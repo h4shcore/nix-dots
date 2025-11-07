@@ -2,7 +2,7 @@
 {
   programs.nixvim = {
     plugins = {
-      programs.cord = {
+      cord = {
         enable = true;
       };
     };
