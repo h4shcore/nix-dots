@@ -3,6 +3,7 @@
   imports = [
     ./keymaps.nix
     ./plugins/colorscheme.nix
+    ./plugins/cord.nix
     ./plugins/barbar.nix
     ./plugins/lualine.nix
     ./plugins/lsp.nix
