@@ -19,6 +19,8 @@
 
     gcc
 
+    wlroots_0_19
+
     # gaming
     wineWowPackages.waylandFull
     winetricks

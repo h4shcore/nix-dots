@@ -25,6 +25,7 @@
     ../../modules/direnv/direnv.nix
     ../../modules/zoxide/zoxide.nix
     ../../modules/mango/mango.nix
+    inputs.mango.hmModules.mango
     inputs.nixvim.homeModules.nixvim
   ];
 
