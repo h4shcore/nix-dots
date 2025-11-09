@@ -24,7 +24,6 @@
     ../../modules/foot/foot.nix
     ../../modules/direnv/direnv.nix
     ../../modules/zoxide/zoxide.nix
-    ../../modules/niri/niri.nix
     inputs.nixvim.homeModules.nixvim
   ];
 
