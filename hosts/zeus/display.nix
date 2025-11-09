@@ -12,6 +12,20 @@
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
+  # Optional, hint Electron apps to use Wayland:
+  environment.sessionVariables.NIXOS_OZONE_WL = "1";
+
+  xdg.portal = {
+    enable = true;
+    extraPortals = [
+      pkgs.xdg-desktop-portal
+      pkgs.xdg-desktop-portal-gtk
+      pkgs.xdg-desktop-portal-wlr
+      # pkgs.xdg-desktop-portal-hyprland
+    ];
+    config.common.default = "*";
+  };
+
   # Enable the GNOME Desktop Environment.
   services.xserver.displayManager.gdm.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
@@ -23,5 +37,5 @@
   };
 
   # Enable CUPS to print documents.
-  services.printing.enable = true;
+  # services.printing.enable = true;
 }

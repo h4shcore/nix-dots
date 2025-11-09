@@ -16,10 +16,13 @@
     vesktop
     qbittorrent
     stremio
+    swayimg
 
     gcc
 
-    wlroots_0_19
+    # niri
+    niri
+    xwayland-satellite
 
     # gaming
     wineWowPackages.waylandFull

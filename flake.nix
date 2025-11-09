@@ -11,7 +11,6 @@
       url = "github:nix-community/nixvim/nixos-25.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    mango.url = "github:DreamMaoMao/mango";
   };
 
   outputs =
@@ -29,11 +28,6 @@
         modules = [
           ./hosts/zeus/configuration.nix
           inputs.home-manager.nixosModules.home-manager
-          # Add mango nixos module
-          inputs.mango.nixosModules.mango
-          {
-            programs.mango.enable = true;
-          }
         ];
       };
     };

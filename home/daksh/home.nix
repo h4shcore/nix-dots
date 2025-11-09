@@ -24,8 +24,7 @@
     ../../modules/foot/foot.nix
     ../../modules/direnv/direnv.nix
     ../../modules/zoxide/zoxide.nix
-    ../../modules/mango/mango.nix
-    inputs.mango.hmModules.mango
+    ../../modules/niri/niri.nix
     inputs.nixvim.homeModules.nixvim
   ];
 
