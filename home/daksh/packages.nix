@@ -20,10 +20,6 @@
 
     gcc
 
-    # niri
-    niri
-    xwayland-satellite
-
     # gaming
     wineWowPackages.waylandFull
     winetricks
