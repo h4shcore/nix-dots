@@ -12,6 +12,7 @@
     yazi
     nix-search-cli
     spotify
+    # psst # spotify in rust (early development)
     equibop
     vesktop
     qbittorrent
