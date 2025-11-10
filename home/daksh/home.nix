@@ -20,6 +20,7 @@
     ./packages.nix
     ../../modules/alacritty/alacritty.nix
     ../../modules/nvim/nixvim.nix
+    ../../modules/emacs/emacs.nix
     ../../modules/fish/fish.nix
     ../../modules/foot/foot.nix
     ../../modules/direnv/direnv.nix
