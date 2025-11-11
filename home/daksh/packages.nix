@@ -26,6 +26,7 @@
     swww
     brightnessctl
     playerctl
+    pavucontrol
 
     # man pages
     # linux-manual
