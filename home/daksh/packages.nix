@@ -23,6 +23,7 @@
     qbittorrent
     stremio
     swayimg
+    swww
 
     # man pages
     # linux-manual
