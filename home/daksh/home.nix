@@ -20,9 +20,11 @@
     ./packages.nix
     ../../modules/alacritty/alacritty.nix
     ../../modules/nvim/nixvim.nix
+    ../../modules/emacs/emacs.nix
     ../../modules/fish/fish.nix
     ../../modules/foot/foot.nix
     ../../modules/direnv/direnv.nix
+    ../../modules/wezterm/wezterm.nix
     ../../modules/zoxide/zoxide.nix
     inputs.nixvim.homeModules.nixvim
   ];

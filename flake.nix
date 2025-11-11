@@ -1,5 +1,5 @@
 {
-  description = "Nixos config flake";
+  description = "dotfiles";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
@@ -11,6 +11,7 @@
       url = "github:nix-community/nixvim/nixos-25.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    nix-colors.url = "github:misterio77/nix-colors";
   };
 
   outputs =
@@ -18,12 +19,13 @@
       self,
       nixpkgs,
       home-manager,
+      nix-colors,
       ...
     }@inputs:
     {
       nixosConfigurations.zeus = nixpkgs.lib.nixosSystem {
         specialArgs = {
-          inherit inputs;
+          inherit inputs nix-colors;
         };
         modules = [
           ./hosts/zeus/configuration.nix
