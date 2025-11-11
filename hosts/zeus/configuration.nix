@@ -1,31 +1,35 @@
-{ 
-    config,
-    pkgs,
-    inputs,
-    ...
-}:
-
 {
-  imports =
-    [
-      ./hardware.nix
-      ./boot.nix
-      ./display.nix
-      ./graphics.nix
-      ./network.nix
-      ./packages.nix
-      ./security.nix
-      ./sound.nix
-      ./user.nix
-      # inputs.home-manager.nixosModules.home-manager
-    ];
+  config,
+  pkgs,
+  inputs,
+  ...
+}:
+let
+  colorScheme = inputs.nix-colors.colorSchemes.gruvbox-dark-hard;
+in
+{
+  imports = [
+    ./hardware.nix
+    ./boot.nix
+    ./display.nix
+    ./graphics.nix
+    ./network.nix
+    ./packages.nix
+    ./security.nix
+    ./sound.nix
+    ./user.nix
+    # inputs.home-manager.nixosModules.home-manager
+  ];
 
   # enable flakes
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ];
 
   # enable home manager
   home-manager = {
-    extraSpecialArgs = { inherit inputs; };
+    extraSpecialArgs = { inherit inputs colorScheme; };
     users = {
       "daksh" = import ../../home/daksh/home.nix;
     };
