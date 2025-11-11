@@ -22,7 +22,7 @@
     ../../modules/alacritty/alacritty.nix
     ../../modules/bat/bat.nix
     ../../modules/bottom/bottom.nix
-    # ../../modules/git/git.nix
+    ../../modules/git/git.nix
     ../../modules/mpv/mpv.nix
     ../../modules/cliphist/cliphist.nix
     ../../modules/dunst/dunst.nix
