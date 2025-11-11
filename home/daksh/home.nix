@@ -36,6 +36,7 @@
     ../../modules/waybar/waybar.nix
     ../../modules/direnv/direnv.nix
     ../../modules/wezterm/wezterm.nix
+    ../../modules/yazi/yazi.nix
     ../../modules/zoxide/zoxide.nix
     inputs.nixvim.homeModules.nixvim
     inputs.nix-colors.homeManagerModules.default
