@@ -20,6 +20,13 @@
     ./packages.nix
     ./packages.nix
     ../../modules/alacritty/alacritty.nix
+    ../../modules/bat/bat.nix
+    ../../modules/bottom/bottom.nix
+    ../../modules/git/git.nix
+    ../../modules/mpv/mpv.nix
+    ../../modules/cliphist/cliphist.nix
+    ../../modules/dunst/dunst.nix
+    ../../modules/helix/helix.nix
     ../../modules/nvim/nixvim.nix
     ../../modules/emacs/emacs.nix
     ../../modules/fish/fish.nix
