@@ -5,12 +5,12 @@
 }:
 {
   dconf.settings = {
-    "org/gnome/shell" = {
-      favorite-apps = [
-        "swayimg.desktop"
-        "firefox.desktop"
-        "wezterm.desktop"
-      ];
+    # "org/gnome/shell" = {
+    #   favorite-apps = [
+    #     "swayimg.desktop"
+    #     "firefox.desktop"
+    #     "wezterm.desktop"
+    #   ];
     };
     "org/gnome/desktop/interface" = {
       color-scheme = "prefer-dark";
