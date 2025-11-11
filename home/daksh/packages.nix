@@ -45,6 +45,10 @@
     slurp
     hyprshot
 
+    # app launcher
+    wmenu
+    rofi
+
     # doc viewer
     zathura
 
