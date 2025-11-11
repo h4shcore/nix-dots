@@ -33,6 +33,7 @@
     ../../modules/foot/foot.nix
     ../../modules/kitty/kitty.nix
     ../../modules/hyprland/hyprland.nix
+    ../../modules/waybar/waybar.nix
     ../../modules/direnv/direnv.nix
     ../../modules/wezterm/wezterm.nix
     ../../modules/zoxide/zoxide.nix
