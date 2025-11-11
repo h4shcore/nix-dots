@@ -28,6 +28,11 @@
     #   name = "McMojave-cursors";
     #   size = 28;
     # };
+    cursorTheme = {
+      name = "Bibata-Modern-Classic";
+      package = pkgs.bibata-cursors;
+      size = 18;
+    };
 
     gtk3.extraConfig = {
       gtk-application-prefer-dark-theme = 1;
