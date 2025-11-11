@@ -16,14 +16,6 @@
         excludesfile = builtins.path { path = ./.gitignore_global; };
       };
 
-      commit = {
-        gpgsign = true;
-      };
-
-      gpg = {
-        program = "gpg";
-      };
-
       init = {
         defaultBranch = "main";
       };

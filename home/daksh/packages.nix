@@ -8,6 +8,11 @@
 
   home.packages = with pkgs; [
     firefox
+    fastfetch
+    speedtest-rs
+    yt-dlp
+    ffmpeg
+    dust
     brave
     yazi
     nix-search-cli
@@ -19,7 +24,80 @@
     stremio
     swayimg
 
+    # man pages
+    # linux-manual
+    # man-pages
+    # man-pages-posix
+
+    # ebook reader
+    foliate
+
+    wl-clipboard
+    hyprpolkitagent
+    wireplumber
+    slurp
+    hyprshot
+    wireplumber
+    slurp
+    hyprshot
+
+    # doc viewer
+    zathura
+
+    # image viewer
+    swayimg
+
+    # file management
+    nemo
+    trash-cli
+
+    # screen mirror
+    wl-mirror
+
+    # amazing calculator
+    qalculate-gtk
+
+    # output display configuration app
+    nwg-displays
+    nwg-look # gnome settings
+
+    # kde qt stuff
+    kdePackages.qt6ct
+    libsForQt5.qt5ct
+    libsForQt5.qtstyleplugin-kvantum
+    kdePackages.xwaylandvideobridge
+
+    # gtk
+    gruvbox-gtk-theme
+
+    # go
+    go
+
+    # java
+    zulu
+
+    # c/c++
+    # gcc14
     gcc
+    gnumake
+
+    # rust
+    rustup
+
+    vscode
+    # zed-editor
+
+    # node
+    nodejs
+    pnpm
+
+    # global compilers, linters, package managers for different languages.
+    (pkgs.python313.withPackages (
+      python-pkgs: with python-pkgs; [
+        pylint
+        subliminal
+      ]
+    ))
 
     # gaming
     wineWowPackages.waylandFull
