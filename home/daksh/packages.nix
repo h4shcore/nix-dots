@@ -44,6 +44,7 @@
     wireplumber
     slurp
     hyprshot
+    wlsunset
 
     # app launcher
     wmenu
