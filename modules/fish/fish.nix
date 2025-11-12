@@ -41,6 +41,12 @@
       nv = "nvim";
       sd = "shutdown now";
       re = "reboot";
+
+      # nix
+      nd = "nix develop path:. -c zsh";
+      nr = "sudo nixos-rebuild switch --flake ~/nixos/hosts#zeus";
+      ncd = "sudo nix-collect-garbage -d";
+      ns = "nix-search";
     };
   };
 }
