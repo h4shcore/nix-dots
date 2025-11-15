@@ -113,6 +113,8 @@
     wineWowPackages.waylandFull
     winetricks
     steam
+    mesa-demos
+    mesa
 
     # fonts
     noto-fonts
