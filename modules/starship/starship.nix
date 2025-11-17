@@ -2,6 +2,7 @@
 {
   programs.starship.enable = true;
   programs.starship.enableFishIntegration = true;
+  programs.starship.enableTransience = true;
   programs.starship.settings = {
     add_newline = false;
     #    format =  ''$username$hostname$directory$git_branch$git_state$git_status$cmd_duration$line_break$python$SPACESHIP_CHAR_SYMBOL'';
