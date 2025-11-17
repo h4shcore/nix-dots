@@ -9,7 +9,17 @@
       # set nvim as manpage viewer
       set -gx MANPAGER 'nvim +Man!'
     '';
+    shellAliases = {
+      ls = "eza --icons";
+    };
     shellAbbrs = {
+      # ls
+      l = "ls -l";
+      ll = "ls -l";
+      la = "ls -a";
+      lla = "ls -la --header";
+      lt = "ls --tree";
+
       # git
       gd = "git diff";
       ga = "git add .";
@@ -26,13 +36,6 @@
       gbd = "git branch -d";
       gco = "git checkout";
       gsh = "git show";
-
-      # ls
-      l = "ls -l";
-      ll = "ls -l";
-      la = "ls -a";
-      lla = "ls -la --header";
-      lt = "ls --tree";
 
       # term
       c = "clear";

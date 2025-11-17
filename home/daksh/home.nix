@@ -31,6 +31,7 @@
     ../../modules/emacs/emacs.nix
     ../../modules/fish/fish.nix
     ../../modules/foot/foot.nix
+    ../../modules/starship/starship.nix
     ../../modules/kitty/kitty.nix
     ../../modules/hyprland/hyprland.nix
     ../../modules/waybar/waybar.nix
