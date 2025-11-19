@@ -66,10 +66,10 @@
 
     # See https://wiki.hyprland.org/Configuring/Dwindle-Layout/ for more
     dwindle = {
-      pseudotile = true;
+      # pseudotile = true;
       force_split = 2; # always on right
       preserve_split = true; # You probably want this
-      smart_split = true;
+      smart_split = false;
     };
 
     # See https://wiki.hyprland.org/Configuring/Master-Layout/ for more
