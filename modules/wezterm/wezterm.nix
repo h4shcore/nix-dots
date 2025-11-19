@@ -80,6 +80,16 @@
            mods = 'CTRL|SHIFT',
            action = wezterm.action.ActivatePaneDirection "Right",
          },
+         {
+           key = 'j',
+           mods = 'CTRL|SHIFT',
+           action = wezterm.action.ActivatePaneDirection "Down",
+         },
+         {
+           key = 'k',
+           mods = 'CTRL|SHIFT',
+           action = wezterm.action.ActivatePaneDirection "Up",
+         },
        }
        return config;
     '';
