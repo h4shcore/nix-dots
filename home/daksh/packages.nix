@@ -29,6 +29,8 @@
     playerctl
     pavucontrol
 
+    github-cli
+
     # man pages
     # linux-manual
     # man-pages
