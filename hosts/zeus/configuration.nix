@@ -5,7 +5,7 @@
   ...
 }:
 let
-  colorScheme = inputs.nix-colors.colorSchemes.gruvbox-dark-hard;
+  colorScheme = inputs.nix-colors.colorSchemes.gruvbox-dark;
 in
 {
   imports = [

@@ -24,12 +24,11 @@
           "custom/sunset"
           "battery"
         ];
-
         "hyprland/workspaces" = {
-          # "active-only" = false;
-          # "disable-scroll" = true;
-          # "all-outputs" = true;
-          # "warp-on-scroll" = false;
+          "active-only" = false;
+          "disable-scroll" = true;
+          "all-outputs" = true;
+          "warp-on-scroll" = false;
           "format" = "{name}";
         };
         "hyprland/window" = {

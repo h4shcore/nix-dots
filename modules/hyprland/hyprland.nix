@@ -18,7 +18,7 @@
     "$volume_control" = "pavucontrol";
     # "$clipboard" = "cliphist list | rofi -dmenu | cliphist decode | wl-copy";
     "$clipboard" =
-      "cliphist list | wmenu -N 282828 -n ebdbb2 -S ebdbb2 -s 282828 -f 'Iosevka Nerd Font 12'  | cliphist decode | wl-copy";
+      "cliphist list | wmenu -N 282828 -n ebdbb2 -S ebdbb2 -s 282828 -f 'Iosevka Nerd Font 12' -l 10 | cliphist decode | wl-copy";
 
     general = {
       layout = "dwindle";
@@ -35,7 +35,7 @@
       inactive_opacity = 0.95;
     };
     animations = {
-      enabled = "no";
+      enabled = "yes";
 
       bezier = [
         "specialWorkSwitch, 0.05, 0.7, 0.1, 1"
