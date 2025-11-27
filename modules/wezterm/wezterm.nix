@@ -38,10 +38,10 @@
        }
        config.enable_tab_bar = false
        config.window_padding = {
-         left = 10,
-         right = 10,
-         top = 6,
-         bottom = 2,
+         left = 20,
+         right = 20,
+         top = 20,
+         bottom = 20,
        }
        config.inactive_pane_hsb = {
          saturation = 0.9,
