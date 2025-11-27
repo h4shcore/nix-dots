@@ -23,9 +23,9 @@
     general = {
       layout = "dwindle";
       allow_tearing = false;
-      gaps_workspaces = 5;
-      gaps_in = 5;
-      gaps_out = 5;
+      gaps_workspaces = 10;
+      gaps_in = 10;
+      gaps_out = 10;
       border_size = 2;
       "col.active_border" = "rgb(${colorScheme.palette.base04})";
     };
@@ -321,8 +321,8 @@
     ];
 
     "workspace" = [
-      "w[tv1]s[false], gapsout:5"
-      "f[1]s[false], gapsout:5"
+      "w[tv1]s[false], gapsout:10"
+      "f[1]s[false], gapsout:10"
     ];
 
     "layerrule" = [
