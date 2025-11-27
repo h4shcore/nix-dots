@@ -23,9 +23,9 @@
     general = {
       layout = "dwindle";
       allow_tearing = false;
-      gaps_workspaces = 10;
+      gaps_workspaces = 20;
       gaps_in = 10;
-      gaps_out = 10;
+      gaps_out = 20;
       border_size = 2;
       "col.active_border" = "rgb(${colorScheme.palette.base04})";
     };
