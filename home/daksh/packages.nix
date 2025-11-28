@@ -36,6 +36,8 @@
     # man-pages
     # man-pages-posix
 
+    xfce.thunar
+
     # ebook reader
     foliate
 
