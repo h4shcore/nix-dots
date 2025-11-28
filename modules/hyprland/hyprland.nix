@@ -262,7 +262,7 @@
 
       # Special workspaces
       "workspace special:sysmon, class:btop"
-      "workspace special:music, class:feishin|spotify|Supersonic"
+      "workspace special:music, class:feishin|spotify|Supersonic|Youtube Music"
       "workspace special:music, initialTitle:Spotify( Free)?" # Spotify wayland, it has no class for some reason
       "workspace special:communication, class:discord|equibop|vesktop|whatsapp"
 
