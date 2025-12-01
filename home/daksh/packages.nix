@@ -80,7 +80,7 @@
     kdePackages.qt6ct
     libsForQt5.qt5ct
     libsForQt5.qtstyleplugin-kvantum
-    kdePackages.xwaylandvideobridge
+    # kdePackages.xwaylandvideobridge
 
     # gtk
     gruvbox-gtk-theme
@@ -124,7 +124,7 @@
     # fonts
     noto-fonts
     noto-fonts-cjk-sans
-    noto-fonts-emoji
+    noto-fonts-color-emoji
     font-awesome
     nerd-fonts.iosevka
     nerd-fonts.jetbrains-mono
