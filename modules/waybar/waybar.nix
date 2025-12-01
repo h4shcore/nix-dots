@@ -29,7 +29,7 @@
           "disable-scroll" = true;
           "all-outputs" = true;
           "warp-on-scroll" = false;
-          "format" = "{name}";
+          "format" = "{icon}";
         };
         "hyprland/window" = {
           "format" = "[ {title} ]";
