@@ -23,7 +23,7 @@
     equibop
     vesktop
     qbittorrent
-    stremio
+    # stremio
     swayimg
     swww
     brightnessctl
@@ -77,9 +77,9 @@
     nwg-look # gnome settings
 
     # kde qt stuff
-    # kdePackages.qt6ct
-    # libsForQt5.qt5ct
-    # libsForQt5.qtstyleplugin-kvantum
+    kdePackages.qt6ct
+    libsForQt5.qt5ct
+    libsForQt5.qtstyleplugin-kvantum
     # kdePackages.xwaylandvideobridge
 
     # gtk
