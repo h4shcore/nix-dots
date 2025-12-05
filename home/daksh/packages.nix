@@ -41,8 +41,6 @@
 
     xfce.thunar
 
-    quickshell
-
     # ebook reader
     foliate
 
