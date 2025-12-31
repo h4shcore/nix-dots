@@ -32,6 +32,8 @@
     udiskie
     jq
 
+    woomer # zoom tool for wayland 
+
     github-cli
 
     # man pages

@@ -15,6 +15,7 @@
     # "$fileManager" = "foot -- yazi";
     "$menu" = "wmenu-run -N 282828 -n ebdbb2 -S ebdbb2 -s 282828 -f 'Iosevka Nerd Font Bold 12' ";
     "$browser" = "firefox";
+    "$zoomer" = "woomer";
     "$volume_control" = "pavucontrol";
     # "$clipboard" = "cliphist list | rofi -dmenu | cliphist decode | wl-copy";
     "$clipboard" =
@@ -122,7 +123,8 @@
     "bind" = [
       "$mainMod, RETURN, exec, uwsm app -- $terminal"
       "$mainMod, E, exec, uwsm app -- $fileManager"
-      "$mainMod, B, exec, uwsm app -- $browser"
+      # "$mainMod, B, exec, uwsm app -- $browser"
+      "$mainMod, B, exec, uwsm app -- $zoomer"
       "$mainMod, R, exec, uwsm app -- $menu"
       "$mainMod, V, exec, uwsm app -- $clipboard"
 
