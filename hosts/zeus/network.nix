@@ -8,15 +8,15 @@
   services.udisks2.enable = true;
 
   # bluetooth
-  # servies.blueman.enable = true;
-  # hardware.bluetooth = {
-  #   enable = true; # enables support for Bluetooth
-  #   settings = {
-  #     General = {
-  #       Experimental = true;
-  #     };
-  #   };
-  # };
+  servies.blueman.enable = true;
+  hardware.bluetooth = {
+    enable = true; # enables support for Bluetooth
+    settings = {
+      General = {
+        Experimental = true;
+      };
+    };
+  };
 
   networking.hostName = "zeus"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
