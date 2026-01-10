@@ -128,6 +128,7 @@
     steam
     mesa-demos
     mesa
+    osu-lazer-bin
 
     # fonts
     noto-fonts
