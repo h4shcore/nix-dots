@@ -66,6 +66,10 @@
     # image viewer
     swayimg
 
+    # libreoffice
+    libreoffice-qt6-fresh
+    hunspell # spellcheck
+
     # file management
     nemo
     trash-cli
