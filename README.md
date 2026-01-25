@@ -17,7 +17,7 @@ nix.settings.experimental-features = [ "nix-command" "flakes" ];
 sudo nixos-rebuild switch
 
 # clone repo
-git clone --depth 1 https://github.com/clouwud/nix-dots && cd nix-dots
+git clone --depth 1 https://github.com/h4shcore/nix-dots && cd nix-dots
 
 # copy new hardware configuration and override the old on.
 rm ./hosts/zeus/hardware.nix
