@@ -36,7 +36,7 @@
       inactive_opacity = 0.95;
     };
     animations = {
-      enabled = "yes";
+      enabled = "no";
 
       bezier = [
         "specialWorkSwitch, 0.05, 0.7, 0.1, 1"
