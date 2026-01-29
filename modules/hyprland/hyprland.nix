@@ -25,7 +25,7 @@
       layout = "dwindle";
       allow_tearing = false;
       gaps_workspaces = 10;
-      gaps_in = 10;
+      gaps_in = 5;
       gaps_out = 10;
       border_size = 2;
       "col.active_border" = "rgb(${colorScheme.palette.base04})";
