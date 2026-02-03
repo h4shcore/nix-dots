@@ -5,7 +5,6 @@
     extraConfig = ''
        local config = wezterm.config_builder()
        -- config.font = wezterm.font 'Iosevka Nerd Font'
-       -- config.font = wezterm.font 'VictorMono Nerd Font'
        config.font = wezterm.font 'JetBrainsMono Nerd Font'
        config.font_size = 18.0
        -- config.color_scheme = 'Gruvbox dark, hard (base16)'
