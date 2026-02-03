@@ -34,10 +34,30 @@
       export AQ_DRM_DEVICES="/dev/dri/card1:/dev/dri/card0"
     '';
 
+    ".vimrc".text = ''
+      " OPTIONS
+      syntax on                 " enable syntax highlighting
+      set number                " show line numbers
+      set relativenumber        " show relative line numbers
+      set tabstop=4             " show tab width to 4 spaces
+      set shiftwidth=4          " set indentation wdith to 4 spaces
+      set expandtab             " use spaces instead of tabs 
+      set cursorline            " highlight the current line
+      set background=dark
+      set notermguicolors
+      set clipboard=unnamedplus
+
+      " KEYBINDS
+      nmap ; :
+      imap jk <ESC>
+
+    '';
+
     ".config/vesktop/themes/gruvbox-dark.css".text = ''
 
       * {
-          font-family: Iosevka Nerd Font !important;
+          // font-family: Iosevka Nerd Font !important;
+          font-family: VictorMono Nerd Font !important;
 
       	--gruv-dark-bg-hard: 29, 32, 33;
       	--gruv-dark-bg: 40 40 40;
