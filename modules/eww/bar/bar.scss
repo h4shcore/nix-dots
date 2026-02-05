@@ -1,6 +1,5 @@
 * {
   all: unset;
-  font-family: "Terminess Nerd Font";
 }
 
 tooltip {
@@ -13,4 +12,19 @@ tooltip {
   background-color: $background;
   color: $foreground;
   padding: 10px;
+}
+
+.workspaces {
+  button {
+    background: none;
+  }
+
+  .workspaces-active {
+    @include color-shadow($gb-dm-fg1, $on-hover: 0);
+    font-weight: bold;
+  }
+
+  .workspaces-inactive {
+    @include color-shadow($gb-dm-bg4);
+  }
 }

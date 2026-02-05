@@ -1,7 +1,9 @@
 (include "bar/sidestuff.yuck")
+(include "bar/hyprworkspaces.yuck")
 
 (defwidget bar []
            (box :class "bar" :orientation "h" :spacing 40
+           (workspaces)
            (sidestuff)))
 
 (defwindow bar
