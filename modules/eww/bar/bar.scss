@@ -1,5 +1,6 @@
 * {
   all: unset;
+  font-family: "Terminess Nerd Font";
 }
 
 tooltip {
@@ -9,5 +10,5 @@ tooltip {
 
 .bar {
   font-family: "Terminess Nerd Font";
-  background: $background;
+  background-color: $background;
 }
