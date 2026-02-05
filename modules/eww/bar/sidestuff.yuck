@@ -1,6 +1,0 @@
-(defwidget sidestuff []
-  (box :class "sidestuff" :orientation "h" :space-evenly false :halign "end"
-    time))
-
-(defpoll time :interval "10s"
-  "date '+%H:%M %b %d, %Y'")

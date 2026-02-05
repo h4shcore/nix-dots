@@ -31,6 +31,7 @@
     pavucontrol
     udiskie
     jq
+    socat
 
     woomer # zoom tool for wayland 
 
