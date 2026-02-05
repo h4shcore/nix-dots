@@ -27,7 +27,7 @@
       gaps_workspaces = 10;
       gaps_in = 5;
       gaps_out = 10;
-      border_size = 1;
+      border_size = 0;
       "col.active_border" = "rgb(${colorScheme.palette.base04})";
     };
     decoration = {
@@ -312,7 +312,7 @@
       "suppressevent maximize, class:.*"
 
       # border 0 on 1 window open
-      "noborder, onworkspace:w[t1]"
+      # "noborder, onworkspace:w[t1]"
 
       # floating windows
       "float, title:Open Files"

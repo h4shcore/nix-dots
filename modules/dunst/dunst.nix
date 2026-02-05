@@ -8,6 +8,7 @@
       mouse_right_click = "context";
       mouse_middle_click = "close_current";
       frame_color = "#${colorScheme.palette.base05}";
+      frame_width = 0;
       separator_color = "#${colorScheme.palette.base03}";
       # font = "Iosevka Nerd Font 12";
       font = "Terminess Nerd Font 12";
