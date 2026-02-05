@@ -1,4 +1,4 @@
-(include "bar/time.yuck")
+(include "bar/sidestuff.yuck")
 
 (defwidget bar []
            (box :class "bar" :orientation "h" :spacing 40
