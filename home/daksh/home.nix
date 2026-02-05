@@ -23,6 +23,7 @@
     ../../modules/bat/bat.nix
     ../../modules/bottom/bottom.nix
     ../../modules/eza/eza.nix
+    ../../modules/eww/eww.nix
     ../../modules/mpv/mpv.nix
     ../../modules/tmux/tmux.nix
     ../../modules/cliphist/cliphist.nix
