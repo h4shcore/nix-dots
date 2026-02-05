@@ -20,11 +20,11 @@ tooltip {
   }
 
   .workspaces-active {
-    @include color-shadow($gb-dm-fg1, $on-hover: 0);
+    color: $gb-dm-fg1;
     font-weight: bold;
   }
 
   .workspaces-inactive {
-    @include color-shadow($gb-dm-bg4);
+    color: $gb-dm-bg4;
   }
 }
