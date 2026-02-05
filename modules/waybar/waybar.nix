@@ -156,7 +156,8 @@
     style = ''
       * {
           /* `otf-font-awesome` is required to be installed for icons */
-          font-family: Iosevka Nerd Font;
+          /* font-family: Iosevka Nerd Font; */
+          font-family: Terminess Nerd Font;
           font-weight: bold;
           font-size: 14px;
       }
