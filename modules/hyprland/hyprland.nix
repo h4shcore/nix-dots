@@ -238,7 +238,7 @@
       # windowrule = opaque, class:foot|equibop|org\.quickshell|imv|swappy|kitty|emacs  # They use native transparency or we want them opaque
       "center 1, floating:1, xwayland:0  # Center all floating windows (not xwayland cause popups)"
 
-      # border 0 when 1 window open (works on hyprland <= 0.53.1 )
+      # border 0 when 1 window open (works on hyprland >= 0.53.1 )
       # "border_size 0, match:workspace w[t1]"
 
       # Float
