@@ -27,7 +27,7 @@
       gaps_workspaces = 10;
       gaps_in = 5;
       gaps_out = 10;
-      border_size = 2;
+      border_size = 1;
       "col.active_border" = "rgb(${colorScheme.palette.base04})";
     };
     decoration = {
@@ -238,6 +238,9 @@
       # windowrule = opaque, class:foot|equibop|org\.quickshell|imv|swappy|kitty|emacs  # They use native transparency or we want them opaque
       "center 1, floating:1, xwayland:0  # Center all floating windows (not xwayland cause popups)"
 
+      # border 0 when 1 window open (works on hyprland <= 0.53.1 )
+      # "border_size 0, match:workspace w[t1]"
+
       # Float
       "float, class:guifetch  # FlafyDev/guifetch"
       "float, class:yad"
@@ -307,6 +310,9 @@
 
     "windowrulev2" = [
       "suppressevent maximize, class:.*"
+
+      # border 0 on 1 window open
+      "noborder, onworkspace:w[t1]"
 
       # floating windows
       "float, title:Open Files"
