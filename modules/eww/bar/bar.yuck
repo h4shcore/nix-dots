@@ -1,6 +1,6 @@
 (defwidget bar []
            (box :class "bar" :orientation "h" :spacing 40
-           ))
+           (time)))
 
 (defwindow bar
            :monitor 0
