@@ -13,13 +13,13 @@
     "$fileManager" = "wezterm start -- yazi";
     # "$terminal" = "foot";
     # "$fileManager" = "foot -- yazi";
-    "$menu" = "wmenu-run -p 'search: ' -M ebdbb2 -m 282828 -N 282828 -n ebdbb2 -S ebdbb2 -s 282828 -f 'Terminess Nerd Font Bold 12' ";
+    "$menu" = "wmenu-run -p 'search: ' -M ebdbb2 -m 282828 -N 282828 -n ebdbb2 -S ebdbb2 -s 282828 -f 'Iosevka Nerd Font Bold 12' ";
     "$browser" = "firefox";
     "$zoomer" = "woomer";
     "$volume_control" = "pavucontrol";
     # "$clipboard" = "cliphist list | rofi -dmenu | cliphist decode | wl-copy";
     "$clipboard" =
-      "cliphist list | wmenu -p 'clipboard: ' -M ebdbb2 -m 282828 -N 282828 -n ebdbb2 -S ebdbb2 -s 282828 -f 'Terminess Nerd Font Bold 12' -l 10 | cliphist decode | wl-copy";
+      "cliphist list | wmenu -p 'clipboard: ' -M ebdbb2 -m 282828 -N 282828 -n ebdbb2 -S ebdbb2 -s 282828 -f 'Iosevka Nerd Font Bold 12' -l 10 | cliphist decode | wl-copy";
 
     general = {
       layout = "dwindle";
@@ -27,7 +27,7 @@
       gaps_workspaces = 10;
       gaps_in = 5;
       gaps_out = 10;
-      border_size = 0;
+      border_size = 2;
       "col.active_border" = "rgb(${colorScheme.palette.base04})";
     };
     decoration = {
