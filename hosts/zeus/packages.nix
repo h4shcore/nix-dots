@@ -12,5 +12,6 @@
     wget
     steam-run
     cyme
+    unrar
   ];
 }
