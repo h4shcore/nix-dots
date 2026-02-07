@@ -30,6 +30,7 @@
     ../../modules/dunst/dunst.nix
     ../../modules/helix/helix.nix
     ../../modules/nvim/nixvim.nix
+    ../../modules/niri/niri.nix
     ../../modules/emacs/emacs.nix
     ../../modules/fish/fish.nix
     ../../modules/foot/foot.nix

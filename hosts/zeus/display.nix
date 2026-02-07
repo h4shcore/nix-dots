@@ -19,12 +19,16 @@
   programs.hyprland.enable = true;
   programs.hyprland.withUWSM = true;
 
+  # Enable Niri
+  programs.niri.enable = true;
+  programs.xwayland.enable = true;
+
   xdg.portal = {
     enable = true;
     extraPortals = [
       pkgs.xdg-desktop-portal
       pkgs.xdg-desktop-portal-gtk
-      # pkgs.xdg-desktop-portal-wlr
+      pkgs.xdg-desktop-portal-wlr
       pkgs.xdg-desktop-portal-hyprland
     ];
     config.common.default = "*";

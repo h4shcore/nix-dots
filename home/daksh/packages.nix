@@ -22,6 +22,7 @@
     # psst # spotify in rust (early development)
     equibop
     vesktop
+    discord
     qbittorrent
     # stremio
     swayimg
@@ -60,6 +61,7 @@
     # app launcher
     wmenu
     rofi
+    fuzzel
 
     # doc viewer
     zathura
