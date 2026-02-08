@@ -93,6 +93,8 @@
     libsForQt5.qtstyleplugin-kvantum
     # kdePackages.xwaylandvideobridge
 
+    xwayland-satellite
+
     # gtk
     gruvbox-gtk-theme
 
