@@ -7,7 +7,7 @@
       settings = {
         main = {
           font = "Iosevka Nerd Font:size=12";
-          prompt = "> ";
+          prompt = "'> '";
           lines = "15";
           width= "50";
           horizontal-pad = "20";
