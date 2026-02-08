@@ -19,7 +19,7 @@
       corner_radius = 0;
       format = "<b>%s</b>\\n%b";
       sticky_history = "no";
-      monitor = 1;
+      monitor = 0;
       show_indicators = "no";
     };
 
