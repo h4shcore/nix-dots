@@ -22,6 +22,7 @@
     ../../modules/alacritty/alacritty.nix
     ../../modules/bat/bat.nix
     ../../modules/bottom/bottom.nix
+    ../../modules/dms/dms.nix
     ../../modules/eza/eza.nix
     ../../modules/eww/eww.nix
     ../../modules/mpv/mpv.nix
@@ -46,6 +47,7 @@
     ../../modules/zoxide/zoxide.nix
     inputs.nixvim.homeModules.nixvim
     inputs.nix-colors.homeManagerModules.default
+    inputs.dms.homeModules.dank-material-shell
   ];
 
   # This value determines the Home Manager release that your configuration is
