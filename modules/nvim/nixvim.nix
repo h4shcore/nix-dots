@@ -11,12 +11,12 @@
     ./plugins/treesitter.nix
     ./plugins/devicons.nix
     ./plugins/gitsigns.nix
-    # ./plugins/chadtree.nix
     ./plugins/opts.nix
     ./plugins/cmp.nix
     ./plugins/lint.nix
     ./plugins/telescope.nix
     ./plugins/floatterm.nix
+    ./plugins/snacks.nix
   ];
 
   programs.nixvim = {
