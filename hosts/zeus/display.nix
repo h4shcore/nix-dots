@@ -16,36 +16,35 @@
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
 
   # Enable Hyprland
-  programs.hyprland.enable = true;
-  programs.hyprland.withUWSM = true;
+  # programs.hyprland.enable = true;
+  # programs.hyprland.withUWSM = true;
 
   # Enable Niri
-  # programs.niri.enable = true;
-  # programs.xwayland.enable = true;
+  programs.niri.enable = true;
+  programs.xwayland.enable = true;
 
   # for hyprland
+  # xdg.portal = {
+  #   enable = true;
+  #   extraPortals = [
+  #     pkgs.xdg-desktop-portal
+  #     pkgs.xdg-desktop-portal-gtk
+  #     pkgs.xdg-desktop-portal-hyprland
+  #   ];
+  #   config.common.default = "*";
+  # };
+
+  # for niri
   xdg.portal = {
     enable = true;
     extraPortals = [
-      pkgs.xdg-desktop-portal
       pkgs.xdg-desktop-portal-gtk
-      pkgs.xdg-desktop-portal-hyprland
+      pkgs.xdg-desktop-portal-gnome
     ];
-    config.common.default = "*";
+    config = {
+      common.default = [ "gnome" ];
+    };
   };
-
-  # for niri
-  # xdg.portal = {
-  #   enable = true;
-  #   xdgOpenUsePortal = true;
-  #   extraPortals = [
-  #     pkgs.xdg-desktop-portal-gtk
-  #     pkgs.xdg-desktop-portal-gnome
-  #   ];
-  #   config = {
-  #     common.default = [ "gnome" ];
-  #   };
-  # };
 
   # Enable the GNOME Desktop Environment.
   # services.xserver.displayManager.gdm.enable = true;

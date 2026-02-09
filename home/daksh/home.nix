@@ -22,7 +22,6 @@
     ../../modules/alacritty/alacritty.nix
     ../../modules/bat/bat.nix
     ../../modules/bottom/bottom.nix
-    ../../modules/dms/dms.nix
     ../../modules/eza/eza.nix
     ../../modules/eww/eww.nix
     ../../modules/mpv/mpv.nix
