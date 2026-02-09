@@ -9,6 +9,9 @@
           indent = {
             enabled = true;
           };
+          animate = {
+            enabled = true;
+          };
         };
       };
     };
