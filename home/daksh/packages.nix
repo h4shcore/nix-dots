@@ -142,5 +142,6 @@
     font-awesome
     nerd-fonts.iosevka
     nerd-fonts.jetbrains-mono
+    nerd-fonts.gohufont
   ];
 }
