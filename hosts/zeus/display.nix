@@ -42,7 +42,7 @@
       pkgs.xdg-desktop-portal-gnome
     ];
     config = {
-      common.default = [ "gnome" ];
+      common.default = [ "gtk" ];
     };
   };
 
