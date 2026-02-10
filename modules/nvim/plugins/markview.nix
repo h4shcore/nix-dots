@@ -3,7 +3,7 @@
   programs.nixvim = {
     markview = {
       enable = true;
-      package = pkgs.vimPLugins.markview-nvim;
+      package = pkgs.vimPlugins.markview-nvim;
       autoLoad = true;
       settings = {
         preview = {
