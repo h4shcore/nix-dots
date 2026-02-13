@@ -13,13 +13,13 @@
     "$fileManager" = "wezterm start -- yazi";
     # "$terminal" = "foot";
     # "$fileManager" = "foot -- yazi";
-    "$menu" = "wmenu-run -p 'search: ' -M ebdbb2 -m 282828 -N 282828 -n ebdbb2 -S ebdbb2 -s 282828 -f 'Iosevka Nerd Font Bold 12' ";
+    "$menu" = "wmenu-run -p 'search: ' -M ebdbb2 -m 282828 -N 282828 -n ebdbb2 -S ebdbb2 -s 282828 -f 'GohuFont 14 Nerd Font Bold 12' ";
     # "$menu" = "fuzzel";
     "$browser" = "firefox";
     "$zoomer" = "woomer";
     "$volume_control" = "pavucontrol";
     # "$clipboard" = "cliphist list | rofi -dmenu | cliphist decode | wl-copy";
-    "$clipboard" = "cliphist list | wmenu -p 'clipboard: ' -M ebdbb2 -m 282828 -N 282828 -n ebdbb2 -S ebdbb2 -s 282828 -f 'Iosevka Nerd Font Bold 12' -l 10 | cliphist decode | wl-copy";
+    "$clipboard" = "cliphist list | wmenu -p 'clipboard: ' -M ebdbb2 -m 282828 -N 282828 -n ebdbb2 -S ebdbb2 -s 282828 -f 'GohuFont 14 Nerd Font Bold 12' -l 10 | cliphist decode | wl-copy";
     # "$clipboard" = "cliphist list | fuzzel --dmenu | cliphist decode | wl-copy";
 
     general = {
