@@ -6,6 +6,8 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  services.flatpak.enable = true;
+
   environment.systemPackages = with pkgs; [
     vim
     git
