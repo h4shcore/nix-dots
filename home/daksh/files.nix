@@ -53,6 +53,21 @@
 
     '';
 
+    # ".local/share/fonts/DankMonoNerdFont" = {
+    #   source = ./static/fonts/DankMonoNerdFont;
+    #   recursive = true;
+    # };
+    #
+    # ".local/share/fonts/operator-mono-nerd-fonts" = {
+    #   source = ./static/fonts/operator-mono-nerd-fonts;
+    #   recursive = true;
+    # };
+
+    ".local/share/fonts" = {
+      source = ./static/fonts;
+      recursive = true;
+    };
+
     ".config/vesktop/themes/gruvbox-dark.css".text = ''
 
       * {

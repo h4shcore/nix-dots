@@ -329,8 +329,8 @@ screenshot-path "~/Pictures/screenshots/ss_%Y-%m-%d %H-%M-%S.png"
 // https://yalter.github.io/niri/Configuration:-Animations
 
 environment {
-    QT_QPA_PLATFORM "wayland"
-    DISPLAY null
+    XDG_CURRENT_DESKTOP "niri"
+    XDG_SESSION_TYPE "wayland"
 }
 
 cursor {

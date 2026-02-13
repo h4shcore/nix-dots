@@ -37,13 +37,11 @@
   # for niri
   # xdg.portal = {
   #   enable = true;
+  #   wlr.enable = true;
   #   extraPortals = [
-  #     pkgs.xdg-desktop-portal-gtk
-  #     pkgs.xdg-desktop-portal-gnome
+  #     pkgs.xdg-desktop-portal-wlr
   #   ];
-  #   config = {
-  #     common.default = [ "gtk" ];
-  #   };
+  #   config.common.default = "*";
   # };
 
   # Enable the GNOME Desktop Environment.
