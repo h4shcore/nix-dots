@@ -6,10 +6,12 @@
       package = pkgs.fuzzel;
       settings = {
         main = {
-          font = "Iosevka Nerd Font:size=12";
+          layer = "overlay";
+          # font = "Iosevka Nerd Font:size=12";
+          font = "DankMono Nerd Font:size=12";
           prompt = "'> '";
           lines = "15";
-          width= "50";
+          width= "80";
           horizontal-pad = "20";
           vertical-pad = "10";
           inner-pad = "10";
