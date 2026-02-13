@@ -6,19 +6,12 @@
       extraConfig = ''
         c.tabs.padding = {"bottom": 5, "left": 5, "right": 5, "top": 5}
 
-        # c.fonts.web.family.fantasy = 'DankMono Nerd Font'
-        # c.fonts.tabs.selected = '14pt DankMono Nerd Font'
-        # c.fonts.tabs.unselected = '14pt DankMono Nerd Font'
-        # c.fonts.statusbar = '14pt DankMono Nerd Font'
-        # c.fonts.completion.entry = '14pt DankMono Nerd Font'
-        # c.fonts.hints = 'bold 14pt DankMono Nerd Font'
-
-        c.fonts.web.family.fantasy = 'GohuFont 14 Nerd Font'
-        c.fonts.tabs.selected = '14pt GohuFont 14 Nerd Font'
-        c.fonts.tabs.unselected = '14pt GohuFont 14 Nerd Font'
-        c.fonts.statusbar = '14pt GohuFont 14 Nerd Font'
-        c.fonts.completion.entry = '14pt GohuFont 14 Nerd Font'
-        c.fonts.hints = 'bold 14pt GohuFont 14 Nerd Font'
+        c.fonts.web.family.fantasy = 'DankMono Nerd Font'
+        c.fonts.tabs.selected = '14pt DankMono Nerd Font'
+        c.fonts.tabs.unselected = '14pt DankMono Nerd Font'
+        c.fonts.statusbar = '14pt DankMono Nerd Font'
+        c.fonts.completion.entry = '14pt DankMono Nerd Font'
+        c.fonts.hints = 'bold 14pt DankMono Nerd Font'
 
         c.downloads.position = 'bottom'
         c.spellcheck.languages = ['en-US']

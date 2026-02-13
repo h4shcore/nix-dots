@@ -157,8 +157,7 @@
       * {
           /* `otf-font-awesome` is required to be installed for icons */
           /* font-family: Iosevka Nerd Font; */
-          /* font-family: DankMono Nerd Font; */
-          font-family: GohuFont 14 Nerd Font Propo;
+          font-family: DankMono Nerd Font;
           font-weight: bold;
           font-size: 14px;
       }

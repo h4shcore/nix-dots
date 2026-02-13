@@ -10,14 +10,13 @@
       frame_color = "#${colorScheme.palette.base05}";
       separator_color = "#${colorScheme.palette.base03}";
       # font = "Iosevka Nerd Font 12";
-      # font = "DankMono Nerd Font 12";
-      font = "GohuFont 14 Nerd Font 12";
+      font = "DankMono Nerd Font 12";
       shrink = true;
       word_wrap = "yes";
       offset = "(9, 9)";
       padding = 15;
       horizontal_padding = 15;
-      dmenu = "wmenu-run -N 282828 -n ebdbb2 -S ebdbb2 -s 282828 -f 'GohuFont 14 Nerd Font Bold 12' -p dunst";
+      dmenu = "wmenu-run -N 282828 -n ebdbb2 -S ebdbb2 -s 282828 -f 'DankMono Nerd Font Bold 12' -p dunst";
       corner_radius = 0;
       format = "<b>%s</b>\\n%b";
       sticky_history = "no";
