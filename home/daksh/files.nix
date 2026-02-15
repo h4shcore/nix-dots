@@ -68,6 +68,10 @@
       recursive = true;
     };
 
+    ".config/qutebrowser/gruvbox.css" = {
+      source = ../../modules/qutebrowser/gruvbox.css;
+    };
+
     ".config/vesktop/themes/gruvbox-dark.css".text = ''
 
       * {
