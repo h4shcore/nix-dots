@@ -20,6 +20,7 @@
     ./packages.nix
     ./packages.nix
     ../../modules/alacritty/alacritty.nix
+    ../../modules/ags/ags.nix
     ../../modules/bat/bat.nix
     ../../modules/bottom/bottom.nix
     ../../modules/eza/eza.nix
