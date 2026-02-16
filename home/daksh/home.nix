@@ -46,6 +46,7 @@
     ../../modules/zoxide/zoxide.nix
     inputs.nixvim.homeModules.nixvim
     inputs.nix-colors.homeManagerModules.default
+    inputs.ags.homeManagerModules.default
   ];
 
   # This value determines the Home Manager release that your configuration is

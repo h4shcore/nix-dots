@@ -12,6 +12,8 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-colors.url = "github:misterio77/nix-colors";
+    astal.url = "github:aylur/astal";
+    ags.url = "github:aylur/ags"; 
   };
 
   outputs =
