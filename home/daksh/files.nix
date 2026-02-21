@@ -53,16 +53,6 @@
 
     '';
 
-    # ".local/share/fonts/DankMonoNerdFont" = {
-    #   source = ./static/fonts/DankMonoNerdFont;
-    #   recursive = true;
-    # };
-    #
-    # ".local/share/fonts/operator-mono-nerd-fonts" = {
-    #   source = ./static/fonts/operator-mono-nerd-fonts;
-    #   recursive = true;
-    # };
-
     ".local/share/fonts" = {
       source = ./static/fonts;
       recursive = true;
@@ -75,8 +65,7 @@
     ".config/vesktop/themes/gruvbox-dark.css".text = ''
 
       * {
-        /* font-family: Iosevka Nerd Font !important; */
-        font-family: DankMono Nerd Font !important;
+        font-family: Iosevka Nerd Font !important;
 
       	--gruv-dark-bg-hard: 29, 32, 33;
       	--gruv-dark-bg: 40 40 40;
