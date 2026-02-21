@@ -10,7 +10,12 @@
   services.libinput.enable = true;
 
   # Enable the X11 windowing system.
-  services.xserver.enable = true;
+  services.xserver = {
+    enable = true;
+    displayManager = {
+      startx.enable = true;
+    };
+  };
 
   # Optional, hint Electron apps to use Wayland:
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
@@ -18,10 +23,6 @@
   # Enable Hyprland
   programs.hyprland.enable = true;
   programs.hyprland.withUWSM = true;
-
-  # Enable Niri
-  # programs.niri.enable = true;
-  # programs.xwayland.enable = true;
 
   # for hyprland
   xdg.portal = {
@@ -33,19 +34,6 @@
     ];
     config.common.default = "*";
   };
-
-  # for niri
-  # xdg.portal = {
-  #   enable = true;
-  #   xdgOpenUsePortal = true;
-  #   extraPortals = [
-  #     pkgs.xdg-desktop-portal-gtk
-  #     pkgs.xdg-desktop-portal-gnome
-  #   ];
-  #   config = {
-  #     common.default = [ "gnome" ];
-  #   };
-  # };
 
   # Enable the GNOME Desktop Environment.
   # services.xserver.displayManager.gdm.enable = true;
