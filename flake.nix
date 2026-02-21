@@ -12,10 +12,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-colors.url = "github:misterio77/nix-colors";
-    oxwm = {
-      url = "github:tonybanters/oxwm";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
   };
 
   outputs =
@@ -34,7 +30,6 @@
         modules = [
           ./hosts/zeus/configuration.nix
           inputs.home-manager.nixosModules.home-manager
-          inputs.oxwm.nixosModules.default
         ];
       };
     };
