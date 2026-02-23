@@ -14,7 +14,6 @@
         c.fonts.hints = 'bold 14pt Iosevka Nerd Font'
 
         c.downloads.position = 'bottom'
-        c.spellcheck.languages = ['en-US']
 
         c.colors.webpage.darkmode.enabled = True
         c.content.user_stylesheets = ['~/.config/qutebrowser/gruvbox.css']
