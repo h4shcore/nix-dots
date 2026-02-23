@@ -15,6 +15,7 @@
           horizontal-pad = "20";
           vertical-pad = "10";
           inner-pad = "10";
+          icons-enabled = "false";
         };
         colors = {
           background = "282828ff";
