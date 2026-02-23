@@ -11,7 +11,7 @@
           # font = "DankMono Nerd Font:size=12";
           prompt = "'> '";
           lines = "15";
-          width= "80";
+          width= "50";
           horizontal-pad = "20";
           vertical-pad = "10";
           inner-pad = "10";
