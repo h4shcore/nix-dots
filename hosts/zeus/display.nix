@@ -24,9 +24,6 @@
   programs.hyprland.enable = true;
   programs.hyprland.withUWSM = true;
 
-  # Enable Mangowc
-  programs.mango.enable = true;
-
   # for hyprland
   xdg.portal = {
     enable = true;

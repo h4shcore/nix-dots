@@ -37,7 +37,7 @@
       inactive_opacity = 0.95;
     };
     animations = {
-      enabled = "no";
+      enabled = "yes";
 
       bezier = [
         "specialWorkSwitch, 0.05, 0.7, 0.1, 1"
@@ -366,10 +366,10 @@
       "uwsm app -- dunst"
 
       # bar
-      "uwsm app -- waybar"
+      # "uwsm app -- waybar"
 
       # music
-      "uwsm app -- mpd"
+      # "uwsm app -- mpd"
 
       # automount
       "uwsm app -- udiskie"
