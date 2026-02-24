@@ -68,6 +68,8 @@
         /* font-family: Iosevka Nerd Font !important; */
         font-family: "GohuFont 14 Nerd Font" !important;
 
+        border-radius: 0px !important;
+
       	--gruv-dark-bg-hard: 29, 32, 33;
       	--gruv-dark-bg: 40 40 40;
       	--gruv-dark-bg-alt: 33, 33, 33;
