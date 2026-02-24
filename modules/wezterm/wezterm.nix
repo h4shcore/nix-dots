@@ -4,8 +4,8 @@
     enable = true;
     extraConfig = ''
        local config = wezterm.config_builder()
-       config.font = wezterm.font 'Iosevka Nerd Font'
-       -- config.font = wezterm.font 'DankMono Nerd Font'
+       -- config.font = wezterm.font 'Iosevka Nerd Font'
+       config.font = wezterm.font 'GohuFont 14 Nerd Font'
        config.font_size = 18.0
        -- config.color_scheme = 'Gruvbox dark, hard (base16)'
        config.colors = {

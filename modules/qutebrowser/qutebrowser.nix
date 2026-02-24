@@ -9,12 +9,19 @@
 
         c.colors.webpage.bg = '#282828'
 
-        c.fonts.web.family.fantasy = 'Iosevka Nerd Font'
-        c.fonts.tabs.selected = '14pt Iosevka Nerd Font'
-        c.fonts.tabs.unselected = '14pt Iosevka Nerd Font'
-        c.fonts.statusbar = '14pt Iosevka Nerd Font'
-        c.fonts.completion.entry = '14pt Iosevka Nerd Font'
-        c.fonts.hints = 'bold 14pt Iosevka Nerd Font'
+        # c.fonts.web.family.fantasy = 'Iosevka Nerd Font'
+        # c.fonts.tabs.selected = '14pt Iosevka Nerd Font'
+        # c.fonts.tabs.unselected = '14pt Iosevka Nerd Font'
+        # c.fonts.statusbar = '14pt Iosevka Nerd Font'
+        # c.fonts.completion.entry = '14pt Iosevka Nerd Font'
+        # c.fonts.hints = 'bold 14pt Iosevka Nerd Font'
+
+        c.fonts.web.family.fantasy = 'GohuFont 14 Nerd Font'
+        c.fonts.tabs.selected = '14pt GohuFont 14 Nerd Font'
+        c.fonts.tabs.unselected = '14pt GohuFont 14 Nerd Font'
+        c.fonts.statusbar = '14pt GohuFont 14 Nerd Font'
+        c.fonts.completion.entry = '14pt GohuFont 14 Nerd Font'
+        c.fonts.hints = 'bold 14pt GohuFont 14 Nerd Font'
 
         c.downloads.position = 'bottom'
 

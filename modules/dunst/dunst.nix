@@ -10,7 +10,7 @@
       frame_color = "#${colorScheme.palette.base05}";
       separator_color = "#${colorScheme.palette.base03}";
       # font = "Iosevka Nerd Font 12";
-      font = "DankMono Nerd Font 12";
+      font = "GohuFont 14 Nerd Font 12";
       shrink = true;
       word_wrap = "yes";
       offset = "(9, 9)";
