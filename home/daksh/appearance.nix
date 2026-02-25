@@ -34,7 +34,7 @@
       package = pkgs.gruvbox-plus-icons;
     };
     cursorTheme = {
-      name = "Bibata-Modern-Classic";
+      name = "Bibata-Original-Classic";
       package = pkgs.bibata-cursors;
       size = 25;
     };
