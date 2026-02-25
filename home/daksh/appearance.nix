@@ -1,7 +1,6 @@
 {
   pkgs,
   inputs,
-  colorScheme,
   ...
 }:
 {
@@ -21,14 +20,8 @@
 
   gtk = {
     enable = true;
-    theme = {
-      name = "${colorScheme.slug}";
-      package =
-        let
-          nix-colors-lib = inputs.nix-colors.lib.contrib { inherit pkgs; };
-        in
-        nix-colors-lib.gtkThemeFromScheme { scheme = colorScheme; };
-    };
+    # theme = {
+    # };
     iconTheme = {
       name = "Gruvbox-Plus-Dark";
       package = pkgs.gruvbox-plus-icons;

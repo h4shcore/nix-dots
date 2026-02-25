@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    # nixpkgs-stable.url = "github:nixos/nixpkgs/nixos-25.11";
+    stable.url = "github:nixos/nixpkgs/nixos-25.11";
     home-manager = {
       url = "github:nix-community/home-manager";
       # url-stable = "github:nix-community/home-manager/release-25.11";
@@ -14,7 +14,6 @@
       # url-stable = "github:nix-community/nixvim/nixos-25.11";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    nix-colors.url = "github:misterio77/nix-colors";
   };
 
   outputs =
@@ -22,13 +21,12 @@
       self,
       nixpkgs,
       home-manager,
-      nix-colors,
       ...
     }@inputs:
     {
       nixosConfigurations.zeus = nixpkgs.lib.nixosSystem {
         specialArgs = {
-          inherit inputs nix-colors;
+          inherit inputs;
         };
         modules = [
           ./hosts/zeus/configuration.nix

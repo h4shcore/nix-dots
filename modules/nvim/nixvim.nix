@@ -9,7 +9,7 @@
     ./plugins/lualine.nix
     ./plugins/lsp.nix
     ./plugins/markview.nix
-    ./plugins/treesitter.nix
+    # ./plugins/treesitter.nix
     ./plugins/devicons.nix
     ./plugins/gitsigns.nix
     ./plugins/opts.nix

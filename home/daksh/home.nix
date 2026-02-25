@@ -2,7 +2,6 @@
   config,
   pkgs,
   inputs,
-  colorScheme,
   ...
 }:
 
@@ -29,7 +28,7 @@
     ../../modules/cliphist/cliphist.nix
     ../../modules/dunst/dunst.nix
     ../../modules/helix/helix.nix
-    # ../../modules/nvim/nixvim.nix
+    ../../modules/nvim/nixvim.nix
     ../../modules/niri/niri.nix
     ../../modules/emacs/emacs.nix
     ../../modules/fish/fish.nix
@@ -45,7 +44,6 @@
     ../../modules/yazi/yazi.nix
     ../../modules/zoxide/zoxide.nix
     inputs.nixvim.homeModules.nixvim
-    inputs.nix-colors.homeManagerModules.default
   ];
 
   # This value determines the Home Manager release that your configuration is

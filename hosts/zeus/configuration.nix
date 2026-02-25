@@ -4,9 +4,6 @@
   inputs,
   ...
 }:
-let
-  colorScheme = inputs.nix-colors.colorSchemes.gruvbox-dark-hard;
-in
 {
   imports = [
     ./hardware.nix
@@ -19,7 +16,6 @@ in
     ./sound.nix
     ./user.nix
     ./virtual.nix
-    # inputs.home-manager.nixosModules.home-manager
   ];
 
   # enable flakes
@@ -30,7 +26,7 @@ in
 
   # enable home manager
   home-manager = {
-    extraSpecialArgs = { inherit inputs colorScheme; };
+    extraSpecialArgs = { inherit inputs; };
     users = {
       "daksh" = import ../../home/daksh/home.nix;
     };

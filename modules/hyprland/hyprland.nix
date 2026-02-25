@@ -1,5 +1,4 @@
 {
-  colorScheme,
   pkgs,
   ...
 }:
@@ -29,7 +28,8 @@
       gaps_in = 5;
       gaps_out = 10;
       border_size = 2;
-      "col.active_border" = "rgb(${colorScheme.palette.base04})";
+      "col.active_border" = "rgb(ebdbb2)";
+      "col.inactive_border" = "rgba(28282800)";
     };
     decoration = {
       rounding = 0;
@@ -81,7 +81,7 @@
 
     # https://wiki.hyprland.org/Configuring/Variables/#misc
     misc = {
-      "col.splash" = "0x${colorScheme.palette.base03}";
+      # "col.splash" = "#282828";
       focus_on_activate = true;
 
       force_default_wallpaper = 0; # Set to 0 or 1 to disable the anime mascot wallpapers
@@ -237,100 +237,73 @@
       # windowrule = opacity 0.95 override, fullscreen:0
 
       # windowrule = opaque, class:foot|equibop|org\.quickshell|imv|swappy|kitty|emacs  # They use native transparency or we want them opaque
-      "center 1, floating:1, xwayland:0  # Center all floating windows (not xwayland cause popups)"
+      # "center 1, floating:1, xwayland:0  # Center all floating windows (not xwayland cause popups)"
 
       # border 0 when 1 window open (works on hyprland >= 0.53.1 )
       # "border_size 0, match:workspace w[t1]"
 
       # Float
-      "float, class:guifetch  # FlafyDev/guifetch"
-      "float, class:yad"
-      "float, class:zenity"
-      "float, class:wev"
-      "float, class:org\.gnome\.FileRoller"
-      "float, class:file-roller" # WHY IS THERE TWOOOOOOOOOOOOOOOO
-      "float, class:blueman-manager"
-      "float, class:com\.github\.GradienceTeam\.Gradience"
-      "float, class:feh"
-      "float, class:swayimg"
-      "float, class:system-config-printer"
-      "float, class:org\.quickshell"
+      # "float, class:guifetch  # FlafyDev/guifetch"
+      # "float, class:yad"
+      # "float, class:zenity"
+      # "float, class:wev"
+      # "float, class:org\.gnome\.FileRoller"
+      # "float, class:file-roller" # WHY IS THERE TWOOOOOOOOOOOOOOOO
+      # "float, class:blueman-manager"
+      # "float, class:com\.github\.GradienceTeam\.Gradience"
+      # "float, class:feh"
+      # "float, class:swayimg"
+      # "float, class:system-config-printer"
+      # "float, class:org\.quickshell"
 
       # Float, resize and center
-      "float, class:foot, title:nmtui"
-      "size 60% 70%, class:foot, title:nmtui"
-      "center 1, class:foot, title:nmtui"
-      "float, class:org\.gnome\.Settings"
-      "size 70% 80%, class:org\.gnome\.Settings"
-      "center 1, class:org\.gnome\.Settings"
-      "float, class:org\.pulseaudio\.pavucontrol|yad-icon-browser"
-      "size 60% 70%, class:org\.pulseaudio\.pavucontrol|yad-icon-browser"
-      "center 1, class:org\.pulseaudio\.pavucontrol|yad-icon-browser"
-      "float, class:nwg-look"
-      "size 50% 60%, class:nwg-look"
-      "center 1, class:nwg-look"
+      # "float, class:foot, title:nmtui"
+      # "size 60% 70%, class:foot, title:nmtui"
+      # "center 1, class:foot, title:nmtui"
+      # "float, class:org\.gnome\.Settings"
+      # "size 70% 80%, class:org\.gnome\.Settings"
+      # "center 1, class:org\.gnome\.Settings"
+      # "float, class:org\.pulseaudio\.pavucontrol|yad-icon-browser"
+      # "size 60% 70%, class:org\.pulseaudio\.pavucontrol|yad-icon-browser"
+      # "center 1, class:org\.pulseaudio\.pavucontrol|yad-icon-browser"
+      # "float, class:nwg-look"
+      # "size 50% 60%, class:nwg-look"
+      # "center 1, class:nwg-look"
 
       # Special workspaces
-      "workspace special:sysmon, class:btop"
-      "workspace special:music, class:feishin|spotify|Supersonic|com.github.th_ch.youtube_music"
-      "workspace special:music, initialTitle:Spotify( Free)?" # Spotify wayland, it has no class for some reason
-      "workspace special:communication, class:discord|equibop|vesktop|whatsapp"
+      # "workspace special:sysmon, class:btop"
+      # "workspace special:music, class:feishin|spotify|Supersonic|com.github.th_ch.youtube_music"
+      # "workspace special:music, initialTitle:Spotify( Free)?" # Spotify wayland, it has no class for some reason
+      # "workspace special:communication, class:discord|equibop|vesktop|whatsapp"
 
       # Dialogs
-      "float, title:(Select|Open)( a)? (File|Folder)(s)?"
-      "float, title:File (Operation|Upload)( Progress)?"
-      "float, title:.* Properties"
-      "float, title:Export Image as PNG"
-      "float, title:GIMP Crash Debug"
-      "float, title:Save As"
-      "float, title:Library"
+      # "float, title:(Select|Open)( a)? (File|Folder)(s)?"
+      # "float, title:File (Operation|Upload)( Progress)?"
+      # "float, title:.* Properties"
+      # "float, title:Export Image as PNG"
+      # "float, title:GIMP Crash Debug"
+      # "float, title:Save As"
+      # "float, title:Library"
 
       # Picture in picture (resize and move done via script)
-      "move 100%-w-2% 100%-w-3%, title:Picture(-| )in(-| )[Pp]icture  # Initial move so window doesn't shoot across the screen from the center"
-      "keepaspectratio, title:Picture(-| )in(-| )[Pp]icture"
-      "float, title:Picture(-| )in(-| )[Pp]icture"
-      "pin, title:Picture(-| )in(-| )[Pp]icture"
+      # "move 100%-w-2% 100%-w-3%, title:Picture(-| )in(-| )[Pp]icture  # Initial move so window doesn't shoot across the screen from the center"
+      # "keepaspectratio, title:Picture(-| )in(-| )[Pp]icture"
+      # "float, title:Picture(-| )in(-| )[Pp]icture"
+      # "pin, title:Picture(-| )in(-| )[Pp]icture"
 
       # Steam
-      "rounding 0, title:, class:steam"
-      "float, title:Friends List, class:steam"
-      "immediate, class:steam_app_[0-9]+ " # Allow tearing for steam games
-      "idleinhibit always, class:steam_app_[0-9]+ " # Always idle inhibit when playing a steam game
+      # "rounding 0, title:, class:steam"
+      # "float, title:Friends List, class:steam"
+      # "immediate, class:steam_app_[0-9]+ " # Allow tearing for steam games
+      # "idleinhibit always, class:steam_app_[0-9]+ " # Always idle inhibit when playing a steam game
 
       # ATLauncher console
-      "float, class:com-atlauncher-App, title:ATLauncher Console"
-
-      # Autodesk Fusion 360
-      "noblur, title:Fusion360|(Marking Menu), class:fusion360\.exe"
+      # "float, class:com-atlauncher-App, title:ATLauncher Console"
 
       # Ugh xwayland popups
-      "nodim, xwayland:1, title:win[0-9]+"
-      "noshadow, xwayland:1, title:win[0-9]+"
-      "rounding 0, xwayland:1, title:win[0-9]+"
-    ];
-
-    "windowrulev2" = [
-      "suppressevent maximize, class:.*"
-
-      # border 0 on 1 window open
-      # "noborder, onworkspace:w[t1]"
-
-      # floating windows
-      "float, title:Open Files"
-      "float, class:xdg-desktop-portal-gtk"
-      "float, class:nwg-*"
-      "float, class:qemu"
-
-      # Fix some dragging issues with XWayland
-      "nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0"
-
-      # hide xwaylandvideobridge window
-      "opacity 0.0 override, class:^(xwaylandvideobridge)$"
-      "noanim, class:^(xwaylandvideobridge)$"
-      "noinitialfocus, class:^(xwaylandvideobridge)$"
-      "maxsize 1 1, class:^(xwaylandvideobridge)$"
-      "noblur, class:^(xwaylandvideobridge)$"
-      "nofocus, class:^(xwaylandvideobridge)$"
+      # "nodim, xwayland:1, title:win[0-9]+"
+      # "noshadow, xwayland:1, title:win[0-9]+"
+      # "rounding 0, xwayland:1, title:win[0-9]+"
     ];
 
     "workspace" = [
@@ -338,21 +311,21 @@
       "f[1]s[false], gapsout:10"
     ];
 
-    "layerrule" = [
-      "animation fade, hyprpicker  # Colour picker out animation"
-      "animation fade, logout_dialog  # wlogout"
-      "animation fade, selection  # slurp"
-      "animation fade, wayfreeze"
-      "animation fade, class:rofi"
-
-      # fuzzel
-      # "animation popin 80%, launcher"
-      # "blur, launcher"
-
-      # rofi
-      "blur, class:(rofi)"
-      "blur, rofi"
-    ];
+    # "layerrule" = [
+    #   "animation fade, hyprpicker  # Colour picker out animation"
+    #   "animation fade, logout_dialog  # wlogout"
+    #   "animation fade, selection  # slurp"
+    #   "animation fade, wayfreeze"
+    #   "animation fade, class:rofi"
+    #
+    #   # fuzzel
+    #   # "animation popin 80%, launcher"
+    #   # "blur, launcher"
+    #
+    #   # rofi
+    #   "blur, class:(rofi)"
+    #   "blur, rofi"
+    # ];
 
     exec-once = [
       # Clipboard history
