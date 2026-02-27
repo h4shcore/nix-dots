@@ -43,7 +43,6 @@
     ../../modules/wezterm/wezterm.nix
     ../../modules/yazi/yazi.nix
     ../../modules/zoxide/zoxide.nix
-    ../../modules/stylix/stylix.nix
     inputs.nixvim.homeModules.nixvim
   ];
 
