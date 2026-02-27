@@ -16,7 +16,6 @@
     ./sound.nix
     ./user.nix
     ./virtual.nix
-    ./stylix.nix
   ];
 
   # enable flakes
