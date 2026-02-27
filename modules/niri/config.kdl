@@ -377,6 +377,7 @@ window-rule {
     match app-id=r#"firefox$"#
     draw-border-with-background false
     clip-to-geometry true
+    open-maximized true
 }
 
 // Example: block out two password managers from screen capture.
