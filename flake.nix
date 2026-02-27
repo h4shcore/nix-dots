@@ -14,6 +14,7 @@
       # url-stable = "github:nix-community/nixvim/nixos-25.11";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    stylix.url = "github:danth/stylix";
   };
 
   outputs =
@@ -31,6 +32,7 @@
         modules = [
           ./hosts/zeus/configuration.nix
           inputs.home-manager.nixosModules.home-manager
+          inputs.stylix.nixosModules.stylix
         ];
       };
     };
