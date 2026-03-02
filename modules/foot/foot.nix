@@ -1,6 +1,6 @@
-{ config, ... }:
+{ ... }:
 let
-  colors = import ../../conf/colors/paradise.nix { };
+  colors = import ../../conf/colors/paradise.nix;
 in
 {
   programs.foot = {
