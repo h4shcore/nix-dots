@@ -28,6 +28,10 @@
         specialArgs = {
           inherit inputs;
         };
+        imports = [
+          ./conf
+        ];
+
         modules = [
           ./hosts/zeus/configuration.nix
           inputs.home-manager.nixosModules.home-manager
