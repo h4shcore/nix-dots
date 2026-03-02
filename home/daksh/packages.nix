@@ -128,12 +128,12 @@
     ))
 
     # gaming
-    wineWowPackages.waylandFull
-    winetricks
+    # wineWowPackages.waylandFull
+    # winetricks
     steam
     mesa-demos
     mesa
-    osu-lazer-bin
+    # osu-lazer-bin
 
     # fonts
     noto-fonts
