@@ -30,6 +30,7 @@
             inherit inputs;
           };
           modules = [
+            ./conf
             ./hosts/zeus/configuration.nix
           ];
         };
