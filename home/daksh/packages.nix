@@ -1,5 +1,6 @@
 {
   pkgs,
+  inputs,
   ...
 }:
 {
@@ -33,7 +34,7 @@
     jq
     socat
 
-    woomer # zoom tool for wayland 
+    woomer # zoom tool for wayland
 
     github-cli
 
