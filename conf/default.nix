@@ -1,10 +1,9 @@
 { inputs, self, ... }:
+let
+  colors = import ./colors.nix;
+in
 {
-  config._module.args.globalArgs = {
-    inherit inputs self;
-    flake = self;
-    conf = {
-      colors = import ./colors.nix;
-    };
+  _module.args = {
+    inherit inputs self colors;
   };
 }

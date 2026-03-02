@@ -1,4 +1,4 @@
-{ conf, ... }:
+{ colors, ... }:
 {
   programs.foot = {
     enable = true;
@@ -9,7 +9,7 @@
         pad = "10x10 center";
       };
       scrollback.lines = 10000;
-      colors = with conf.colors.default; {
+      colors = with colors.default; {
         inherit foreground background;
           regular0 = regular0;
           regular1 = regular1;
