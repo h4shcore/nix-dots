@@ -18,17 +18,16 @@
     ./files.nix
     ./others.nix
     ./packages.nix
-    ./packages.nix
     ../../modules/alacritty/alacritty.nix
     ../../modules/bat/bat.nix
     ../../modules/bottom/bottom.nix
     ../../modules/eza/eza.nix
     ../../modules/git/git.nix
     ../../modules/mpv/mpv.nix
-    ../../modules/tmux/tmux.nix
+    # ../../modules/tmux/tmux.nix
     ../../modules/cliphist/cliphist.nix
     ../../modules/dunst/dunst.nix
-    ../../modules/helix/helix.nix
+    # ../../modules/helix/helix.nix
     ../../modules/nvim/nixvim.nix
     ../../modules/niri/niri.nix
     ../../modules/emacs/emacs.nix
@@ -37,8 +36,9 @@
     ../../modules/fuzzel/fuzzel.nix
     ../../modules/starship/starship.nix
     ../../modules/kitty/kitty.nix
-    ../../modules/hyprland/hyprland.nix
-    ../../modules/waybar/waybar.nix
+    # ../../modules/hyprland/hyprland.nix
+    # ../../modules/waybar/waybar.nix
+    ../../modules/stylix/stylix.nix
     ../../modules/qutebrowser/qutebrowser.nix
     ../../modules/direnv/direnv.nix
     ../../modules/wezterm/wezterm.nix

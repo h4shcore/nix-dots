@@ -14,6 +14,10 @@
       url = "github:nix-community/nixvim/nixos-25.11";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    stylix = {
+      url = "github:nix-community/stylix/release-25.11";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -21,6 +25,7 @@
       self,
       nixpkgs,
       home-manager,
+      stylix,
       ...
     }@inputs:
     {
@@ -28,9 +33,9 @@
         zeus = nixpkgs.lib.nixosSystem {
           specialArgs = {
             inherit inputs;
-            colors = import ./conf/colors/paradise.nix { inherit builtins; };
           };
           modules = [
+            stylix.nixosModules.stylix
             ./hosts/zeus/configuration.nix
           ];
         };
