@@ -14,6 +14,7 @@
     ./packages.nix
     ./security.nix
     ./sound.nix
+    ./stylix.nix
     ./user.nix
     ./virtual.nix
     inputs.home-manager.nixosModules.home-manager
