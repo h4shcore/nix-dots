@@ -21,7 +21,13 @@
       base0F = "BBB6B6";
     };
     targets = {
-      alacritty.enable = false;
+      alacritty = {
+        enable = false;
+        fonts = {
+          enable = false;  
+          override = false;
+        };
+      };
     };
   };
 }

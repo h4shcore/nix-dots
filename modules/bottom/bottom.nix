@@ -6,9 +6,9 @@
       flags = {
         enable_gpu = true;
       };
-      styles = {
-        theme = "gruvbox";
-      };
+      # styles = {
+      #   theme = "gruvbox";
+      # };
     };
   };
 }

@@ -4,26 +4,26 @@
   programs.alacritty.settings = {
     colors.draw_bold_text_with_bright_colors = true;
 
-    font.size = 14;
-    font.bold = {
-      family = "Iosevka Nerd Font";
-      style = "Bold";
-    };
-
-    font.bold_italic = {
-      family = "Iosevka Nerd Font";
-      style = "Bold Italic";
-    };
-
-    font.italic = {
-      family = "Iosevka Nerd Font";
-      style = "Italic";
-    };
-
-    font.normal = {
-      family = "Iosevka Nerd Font";
-      style = "Regular";
-    };
+    # font.size = 14;
+    # font.bold = {
+    #   family = "Iosevka Nerd Font";
+    #   style = "Bold";
+    # };
+    #
+    # font.bold_italic = {
+    #   family = "Iosevka Nerd Font";
+    #   style = "Bold Italic";
+    # };
+    #
+    # font.italic = {
+    #   family = "Iosevka Nerd Font";
+    #   style = "Italic";
+    # };
+    #
+    # font.normal = {
+    #   family = "Iosevka Nerd Font";
+    #   style = "Regular";
+    # };
 
     keyboard.bindings = [
       {
