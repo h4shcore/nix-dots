@@ -1,4 +1,4 @@
-{ ... }:
+{ pkgs, ... }:
 {
   stylix = {
     enable = true;
@@ -19,15 +19,6 @@
       base0D = "8DA3B9";
       base0E = "A988B0";
       base0F = "BBB6B6";
-    };
-    targets = {
-      alacritty = {
-        enable = false;
-        fonts = {
-          enable = false;  
-          override = false;
-        };
-      };
     };
   };
 }
