@@ -14,6 +14,7 @@
          top = 20,
          bottom = 20,
        }
+       config.adjust_window_size_when_changing_font_size = true
        config.inactive_pane_hsb = {
          saturation = 0.9,
          brightness = 0.8,

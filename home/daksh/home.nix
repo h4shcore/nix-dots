@@ -28,7 +28,8 @@
     ../../modules/cliphist/cliphist.nix
     ../../modules/dunst/dunst.nix
     ../../modules/helix/helix.nix
-    ../../modules/nvim/nixvim.nix
+    # ../../modules/nvim/nixvim.nix
+    ../../modules/nixvim/default.nix
     ../../modules/niri/niri.nix
     ../../modules/emacs/emacs.nix
     ../../modules/fish/fish.nix

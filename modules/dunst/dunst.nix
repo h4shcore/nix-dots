@@ -9,8 +9,7 @@
       mouse_middle_click = "close_current";
       frame_color = "#ebdbb2";
       separator_color = "auto";
-      # font = "Iosevka Nerd Font 12";
-      font = "GohuFont 14 Nerd Font 12";
+      font = "Iosevka Nerd Font 12";
       shrink = true;
       word_wrap = "yes";
       offset = "(9, 9)";
