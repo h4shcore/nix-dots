@@ -35,7 +35,7 @@
             inherit inputs;
           };
           modules = [
-            stylix.homeModules.stylix
+            stylix.nixosModules.stylix
             ./hosts/zeus/configuration.nix
           ];
         };
