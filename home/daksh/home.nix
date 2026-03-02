@@ -38,7 +38,6 @@
     ../../modules/kitty/kitty.nix
     # ../../modules/hyprland/hyprland.nix
     # ../../modules/waybar/waybar.nix
-    ../../modules/stylix/stylix.nix
     ../../modules/qutebrowser/qutebrowser.nix
     ../../modules/direnv/direnv.nix
     ../../modules/wezterm/wezterm.nix
