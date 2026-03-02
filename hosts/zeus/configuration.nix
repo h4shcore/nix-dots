@@ -16,6 +16,7 @@
     ./sound.nix
     ./user.nix
     ./virtual.nix
+    inputs.home-manager.nixosModules.home-manager
   ];
 
   # enable flakes

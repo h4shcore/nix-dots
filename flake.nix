@@ -23,19 +23,20 @@
       home-manager,
       ...
     }@inputs:
+    let
+      conf = import ./conf/default.nix { };
+    in
     {
-      nixosConfigurations.zeus = nixpkgs.lib.nixosSystem {
-        specialArgs = {
-          inherit inputs;
+      nixosConfigurations = {
+        zeus = nixpkgs.lib.nixosSystem {
+          specialArgs = {
+            inherit inputs;
+          };
+          modules = [
+            { _module.args.conf = conf; }
+            ./hosts/zeus/configuration.nix
+          ];
         };
-        imports = [
-          ./conf
-        ];
-
-        modules = [
-          ./hosts/zeus/configuration.nix
-          inputs.home-manager.nixosModules.home-manager
-        ];
       };
     };
 }
