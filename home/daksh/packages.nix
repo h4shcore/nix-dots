@@ -128,8 +128,8 @@
     ))
 
     # gaming
-    # wineWowPackages.waylandFull
-    # winetricks
+    winetricks
+    wineWowPackages.waylandFull
     steam
     mesa-demos
     mesa
