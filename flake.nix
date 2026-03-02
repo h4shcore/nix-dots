@@ -23,9 +23,6 @@
       home-manager,
       ...
     }@inputs:
-    let
-      conf = import ./conf/default.nix { };
-    in
     {
       nixosConfigurations = {
         zeus = nixpkgs.lib.nixosSystem {
@@ -33,7 +30,6 @@
             inherit inputs;
           };
           modules = [
-            { _module.args.conf = conf; }
             ./hosts/zeus/configuration.nix
           ];
         };

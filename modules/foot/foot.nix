@@ -1,4 +1,7 @@
-{ colors, ... }:
+{ config, ... }:
+let
+  colors = import ../../conf/colors/paradise.nix { };
+in
 {
   programs.foot = {
     enable = true;
@@ -9,24 +12,24 @@
         pad = "10x10 center";
       };
       scrollback.lines = 10000;
-      colors = with colors.default; {
+      colors = with colors; {
         inherit foreground background;
-          regular0 = regular0;
-          regular1 = regular1;
-          regular2 = regular2;
-          regular3 = regular3;
-          regular4 = regular4;
-          regular5 = regular5;
-          regular6 = regular6;
-          regular7 = regular7;
-          bright0 = bright0;
-          bright1 = bright1;
-          bright2 = bright2;
-          bright3 = bright3;
-          bright4 = bright4;
-          bright5 = bright5;
-          bright6 = bright6;
-          bright7 = bright7;
+          regular0 = base00;
+          regular1 = base01;
+          regular2 = base02;
+          regular3 = base03;
+          regular4 = base04;
+          regular5 = base05;
+          regular6 = base06;
+          regular7 = base07;
+          bright0 = base08;
+          bright1 = base09;
+          bright2 = base0A;
+          bright3 = base0B;
+          bright4 = base0C;
+          bright5 = base0D;
+          bright6 = base0E;
+          bright7 = base0F;
       };
     };
   };
