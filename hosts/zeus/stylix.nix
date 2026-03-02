@@ -20,5 +20,8 @@
       base0E = "A988B0";
       base0F = "BBB6B6";
     };
+    targets = {
+      alacritty.enable = false;
+    };
   };
 }
