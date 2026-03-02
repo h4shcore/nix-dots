@@ -23,14 +23,12 @@
       home-manager,
       ...
     }@inputs:
-    let
-      colors = import ./conf/colors/paradise.nix;
-    in
     {
       nixosConfigurations = {
         zeus = nixpkgs.lib.nixosSystem {
           specialArgs = {
-            inherit inputs colors;
+            inherit inputs;
+            colors = import ./conf/colors/paradise.nix { inherit builtins; };
           };
           modules = [
             ./hosts/zeus/configuration.nix
