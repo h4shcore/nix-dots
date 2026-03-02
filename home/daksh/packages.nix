@@ -18,7 +18,6 @@
     yazi
     nix-search-cli
     spotify
-    pear-desktop
     # psst # spotify in rust (early development)
     equibop
     vesktop
@@ -43,7 +42,7 @@
     # man-pages
     # man-pages-posix
 
-    thunar
+    xfce.thunar
 
     # ebook reader
     foliate

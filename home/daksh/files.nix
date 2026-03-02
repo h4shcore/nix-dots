@@ -65,8 +65,7 @@
     ".config/vesktop/themes/gruvbox-dark.css".text = ''
 
       * {
-        /* font-family: Iosevka Nerd Font !important; */
-        font-family: "GohuFont 14 Nerd Font" !important;
+        font-family: Iosevka Nerd Font !important;
 
         border-radius: 0px !important;
 
