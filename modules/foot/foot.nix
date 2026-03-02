@@ -1,7 +1,4 @@
-{ ... }:
-let
-  colors = import ../../conf/colors/paradise.nix;
-in
+{ conf, ... }:
 {
   programs.foot = {
     enable = true;
@@ -12,7 +9,7 @@ in
         pad = "10x10 center";
       };
       scrollback.lines = 10000;
-      colors = with colors; {
+      colors = with conf.colors.default; {
         inherit foreground background;
           regular0 = base00;
           regular1 = base01;
