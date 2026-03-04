@@ -36,6 +36,7 @@
     ../../modules/foot/foot.nix
     ../../modules/fuzzel/fuzzel.nix
     ../../modules/starship/starship.nix
+    ../../modules/swayimg/swayimg.nix
     ../../modules/kitty/kitty.nix
     ../../modules/hyprland/hyprland.nix
     # ../../modules/waybar/waybar.nix
