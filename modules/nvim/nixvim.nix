@@ -7,7 +7,8 @@
     ./plugins/colorizer.nix
     ./plugins/colorscheme.nix
     ./plugins/cord.nix
-    ./plugins/barbar.nix
+    # ./plugins/barbar.nix
+    ./plugins/bufferline.nix
     ./plugins/lualine.nix
     ./plugins/lsp.nix
     ./plugins/markview.nix

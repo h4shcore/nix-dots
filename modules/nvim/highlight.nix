@@ -6,7 +6,7 @@ in
   config = {
     theme = "paradise";
 
-    highlight = with colors; {
+    programs.nixvim.highlight = with colors; {
       # Mini Notify
       MiniNotifyNormal = {
         bg = base00;
@@ -23,6 +23,15 @@ in
       CursorLineNr = {
         fg = "none";
         bg = "none";
+      };
+
+      Comment = {
+        fg = base03;
+        italic = true;
+      };
+      "@comment" = {
+        fg = base03;
+        italic = true;
       };
 
       StatusNormal = {
