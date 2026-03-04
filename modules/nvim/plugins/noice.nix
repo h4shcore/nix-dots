@@ -1,28 +1,30 @@
 {
-  plugins.noice = {
-    enable = true;
-    lazyLoad.settings.event = "DeferredUIEnter";
-    settings = {
-      notify = {
-        enabled = false;
-        view = "notify";
-      };
-      messages = {
-        enabled = true;
-        view = "mini";
-      };
-      lsp = {
-        message = {
+  programs.nixvim = {
+    plugins.noice = {
+      enable = true;
+      lazyLoad.settings.event = "DeferredUIEnter";
+      settings = {
+        notify = {
           enabled = false;
+          view = "notify";
         };
-        progress = {
-          enabled = false;
+        messages = {
+          enabled = true;
           view = "mini";
         };
-      };
-      popupmenu = {
-        enabled = true;
-        backend = "nui";
+        lsp = {
+          message = {
+            enabled = false;
+          };
+          progress = {
+            enabled = false;
+            view = "mini";
+          };
+        };
+        popupmenu = {
+          enabled = true;
+          backend = "nui";
+        };
       };
     };
   };
