@@ -6,7 +6,8 @@
     ./options.nix
     ./plugins/colorizer.nix
     ./plugins/colorscheme.nix
-    ./plugins/cord.nix
+    # ./plugins/cord.nix
+    ./plugins/chadtree.nix
     # ./plugins/barbar.nix
     ./plugins/bufferline.nix
     ./plugins/lualine.nix

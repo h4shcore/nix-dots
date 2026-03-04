@@ -4,9 +4,10 @@
     plugins = {
       chadtree = {
         enable = true;
-settings = {
+        xdg = true;
+        settings = {
           view = {
-            openDirection = "left";
+            openDirection = "right";
             width = 30;
           };
           options = {
