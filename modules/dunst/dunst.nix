@@ -14,8 +14,9 @@
       word_wrap = "yes";
       offset = "(9, 9)";
       padding = 15;
+      origin = "top-center";
       horizontal_padding = 15;
-      corner_radius = 0;
+      corner_radius = 10;
       format = "<b>%s</b>\\n%b";
       sticky_history = "no";
       monitor = 0;

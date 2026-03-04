@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ colorScheme, pkgs, ... }:
 {
   programs = {
     fuzzel = {
@@ -17,17 +17,21 @@
           icons-enabled = "false";
         };
         colors = {
-          background = "151515ff";
-          text = "E8E3E3ff";
-          match = "D9BC8Cff";
-          selection = "424242ff";
-          selection-match = "B66467ff";
-          selection-text = "BBB6B6ff";
-          border = "BBB6B6ff";
+          background = "${colorScheme.palette.base00}ff";
+          text = "${colorScheme.palette.base05}ff";
+          placeholder = "${colorScheme.palette.base03}ff";
+          prompt = "${colorScheme.palette.base05}ff";
+          input = "${colorScheme.palette.base05}ff";
+          match = "${colorScheme.palette.base0A}ff";
+          selection = "${colorScheme.palette.base02}ff";
+          selection-text = "${colorScheme.palette.base05}ff";
+          selection-match = "${colorScheme.palette.base0A}ff";
+          counter = "${colorScheme.palette.base06}ff";
+          border = "${colorScheme.palette.base04}ff";
         };
         border = {
           width = "2";
-          radius = "0";
+          radius = "10";
         };
         dmenu = {
           mode = "text";
