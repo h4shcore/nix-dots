@@ -7,7 +7,7 @@
       mouse_left_click = "do_action";
       mouse_right_click = "context";
       mouse_middle_click = "close_current";
-      frame_color = "#ebdbb2";
+      frame_color = "#e8e3e3";
       separator_color = "auto";
       font = "Iosevka Nerd Font 12";
       shrink = true;
@@ -24,23 +24,23 @@
 
     base16_low = {
       msg_urgency = "low";
-      background = "#282828";
-      foreground = "#ebdbb2";
+      background = "#151515";
+      foreground = "#e8e3e3";
       timeout = 3;
     };
 
     base16_normal = {
       msg_urgency = "normal";
-      background = "#282828";
-      foreground = "#ebdbb2";
+      background = "#151515";
+      foreground = "#e8e3e3";
       timeout = 3;
     };
 
     base16_critical = {
       msg_urgency = "critical";
-      background = "#282828";
-      foreground = "#ebdbb2";
-      frame_color = "#cc241d";
+      background = "#151515";
+      foreground = "#e8e3e3";
+      frame_color = "#b66467";
       timeout = 5;
     };
   };

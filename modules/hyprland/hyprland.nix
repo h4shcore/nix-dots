@@ -28,8 +28,8 @@
       gaps_in = 5;
       gaps_out = 10;
       border_size = 2;
-      "col.active_border" = "rgb(ebdbb2)";
-      "col.inactive_border" = "rgba(28282800)";
+      "col.active_border" = "rgb(e8e3e3)";
+      "col.inactive_border" = "rgba(15151500)";
     };
     decoration = {
       rounding = 0;

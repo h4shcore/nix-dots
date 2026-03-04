@@ -1,8 +1,7 @@
-{ ... }:
 {
   mgr = {
     cwd = {
-      fg = "#83a598";
+      fg = "#8AA6A2"; # base0C
     };
 
     hovered = {
@@ -14,117 +13,116 @@
     };
 
     find_keyword = {
-      fg = "#b8bb26";
+      fg = "#8C977D"; # base0B
       italic = true;
     };
     find_position = {
-      fg = "#fe8019";
+      fg = "#D9BC8C"; # base09
       bg = "reset";
       italic = true;
     };
 
     marker_copied = {
-      fg = "#8ec07c";
-      bg = "#8ec07c";
+      fg = "#8C977D"; # base0B
+      bg = "#8C977D"; # base0B
     };
     marker_cut = {
-      fg = "#d3869b";
-      bg = "#d3869b";
+      fg = "#A988B0"; # base0E
+      bg = "#A988B0"; # base0E
     };
     marker_marked = {
-      fg = "#83a598";
-      bg = "#83a598";
+      fg = "#8AA6A2"; # base0C
+      bg = "#8AA6A2"; # base0C
     };
     marker_selected = {
-      fg = "#fbf1c7";
-      bg = "#fbf1c7";
+      fg = "#E8E3E3"; # base06
+      bg = "#E8E3E3"; # base06
     };
 
     tab_active = {
-      fg = "#282828";
-      bg = "#a89984";
+      fg = "#151515"; # base00
+      bg = "#BBB6B6"; # base04
     };
     tab_inactive = {
-      fg = "#a89984";
-      bg = "#504945";
+      fg = "#BBB6B6"; # base04
+      bg = "#2E2E2E"; # base02
     };
     tab_width = 1;
 
     count_copied = {
-      fg = "#282828";
-      bg = "#8ec07c";
+      fg = "#151515"; # base00
+      bg = "#8C977D"; # base0B
     };
     count_cut = {
-      fg = "#282828";
-      bg = "#d3869b";
+      fg = "#151515"; # base00
+      bg = "#A988B0"; # base0E
     };
     count_selected = {
-      fg = "#282828";
-      bg = "#fbf1c7";
+      fg = "#151515"; # base00
+      bg = "#E8E3E3"; # base06
     };
 
     border_symbol = "│";
     border_style = {
-      fg = "#665c54";
+      fg = "#424242"; # base03
     };
   };
 
   status = {
 
     mode_normal = {
-      fg = "#282828";
-      bg = "#4b4235";
+      fg = "#151515"; # base00
+      bg = "#2E2E2E"; # base02
       bold = true;
     };
 
-    #
     mode_select = {
-      fg = "#282828";
-      bg = "#fe8019";
+      fg = "#151515"; # base00
+      bg = "#D9BC8C"; # base09
       bold = true;
     };
     mode_unset = {
-      fg = "#282828";
-      bg = "#b8bb26";
+      fg = "#151515"; # base00
+      bg = "#8C977D"; # base0B
       bold = true;
     };
 
     progress_label = {
-      fg = "#ebdbb2";
+      fg = "#E8E3E3"; # base05
       bold = true;
     };
     progress_normal = {
-      fg = "#504945";
-      bg = "#3c3836";
+      fg = "#2E2E2E"; # base02
+      bg = "#1F1F1F"; # base01
     };
     progress_error = {
-      fg = "#fb4934";
-      bg = "#3c3836";
+      fg = "#B66467"; # base08
+      bg = "#1F1F1F"; # base01
     };
 
     permissions_t = {
-      fg = "#504945";
+      fg = "#2E2E2E"; # base02
     };
     permissions_r = {
-      fg = "#b8bb26";
+      fg = "#8C977D"; # base0B
     };
     permissions_w = {
-      fg = "#fb4934";
+      fg = "#B66467"; # base08
     };
     permissions_x = {
-      fg = "#b8bb26";
+      fg = "#8C977D"; # base0B
     };
     permissions_s = {
-      fg = "#665c54";
+      fg = "#424242"; # base03
     };
   };
 
   select = {
     border = {
-      fg = "#458588";
+      fg = "#8AA6A2"; # base0C
     };
     active = {
-      fg = "#d3869b";
+      fg = "#A988B0"; # base0E
       bold = true;
     };
     inactive = { };
@@ -132,7 +130,7 @@
 
   input = {
     border = {
-      fg = "#ebdbb2";
+      fg = "#E8E3E3"; # base05
     };
     title = { };
     value = { };
@@ -143,7 +141,7 @@
 
   tasks = {
     border = {
-      fg = "#504945";
+      fg = "#2E2E2E"; # base02
     };
     title = { };
     hovered = {
@@ -153,49 +151,49 @@
 
   which = {
     mask = {
-      bg = "#3c3836";
+      bg = "#1F1F1F"; # base01
     };
     cand = {
-      fg = "#83a598";
+      fg = "#8AA6A2"; # base0C
     };
     rest = {
-      fg = "#928374";
+      fg = "#424242"; # base03
     };
     desc = {
-      fg = "#fe8019";
+      fg = "#D9BC8C"; # base09
     };
     separator = "  ";
     separator_style = {
-      fg = "#504945";
+      fg = "#2E2E2E"; # base02
     };
   };
 
   help = {
     on = {
-      fg = "#83a598";
+      fg = "#8AA6A2"; # base0C
     };
     run = {
-      fg = "#d3869b";
+      fg = "#A988B0"; # base0E
     };
     hovered = {
       reversed = true;
       bold = true;
     };
     footer = {
-      fg = "#3c3836";
-      bg = "#a89984";
+      fg = "#1F1F1F"; # base01
+      bg = "#BBB6B6"; # base04
     };
   };
 
   notify = {
     title_info = {
-      fg = "#8ec07c";
+      fg = "#8C977D"; # base0B
     };
     title_warn = {
-      fg = "#fbf1c7";
+      fg = "#E8E3E3"; # base06
     };
     title_error = {
-      fg = "#d3869b";
+      fg = "#A988B0"; # base0E
     };
   };
 
@@ -203,31 +201,31 @@
     rules = [
       {
         mime = "image/*";
-        fg = "#d3869b";
+        fg = "#A988B0"; # base0E
       }
       {
         mime = "{audio,video}/*";
-        fg = "#fabd2f";
+        fg = "#D9BC8C"; # base09
       }
       {
         mime = "application/*zip";
-        fg = "#fb4934";
+        fg = "#B66467"; # base08
       }
       {
         mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}";
-        fg = "#fb4934";
+        fg = "#B66467"; # base08
       }
       {
         mime = "application/{pdf,doc,rtf,vnd.*}";
-        fg = "#689d6a";
+        fg = "#8C977D"; # base0B
       }
       {
         name = "*";
-        fg = "#ebdbb2";
+        fg = "#E8E3E3"; # base05
       }
       {
         name = "*/";
-        fg = "#83a598";
+        fg = "#8AA6A2"; # base0C
       }
     ];
   };
