@@ -29,9 +29,9 @@
         in
         nix-colors-lib.gtkThemeFromScheme { scheme = colorScheme; };
     };
-    iconTheme = {
-      name = "Everforest-Dark";
-    };
+    # iconTheme = {
+    #   name = "Everforest-Dark";
+    # };
     cursorTheme = {
       name = "Bibata-Original-Classic";
       package = pkgs.bibata-cursors;

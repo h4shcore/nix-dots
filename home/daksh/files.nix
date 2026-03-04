@@ -53,20 +53,6 @@
 
     '';
 
-    ".local/share/fonts" = {
-      source = ./static/fonts;
-      recursive = true;
-    };
-
-    ".icons/Everforest-Dark" ={
-      source = ./static/Everforest-Dark;
-      recursive = true;
-    };
-
-    ".config/qutebrowser/gruvbox.css" = {
-      source = ../../modules/qutebrowser/gruvbox.css;
-    };
-
     ".config/vesktop/themes/gruvbox-dark.css".text = ''
 
       * {
