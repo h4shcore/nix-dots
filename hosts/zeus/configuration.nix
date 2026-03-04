@@ -6,7 +6,7 @@
   ...
 }:
 let
-  colorScheme = inputs.nix-colors.colorScheme.everforest-dark-hard;
+  colorScheme = inputs.nix-colors.colorSchemes.everforest-dark-hard;
 in
 {
   imports = [
