@@ -3,12 +3,12 @@
   programs.swayimg = {
     enable = true;
     settings = {
-      general = {
-        # Sway/Hyprland only: create floating window above the currently focused one
-        overlay = "yes";
-        # initial window size
-        size = "1280,720";
-      };
+      # general = {
+      #   # Sway/Hyprland only: create floating window above the currently focused one
+      #   overlay = "yes";
+      #   # initial window size
+      #   # size = "1280,720";
+      # };
 
       viewer = {
         # Window background color (auto/extend/mirror/RGBA)
