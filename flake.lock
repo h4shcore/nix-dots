@@ -151,11 +151,32 @@
         "type": "github"
       }
     },
+    "oxwm": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1772412925,
+        "narHash": "sha256-y2cHkHzV+0enuis2rtVMyF4zfUbLHaeFEFy0AfaiHgM=",
+        "owner": "tonybanters",
+        "repo": "oxwm",
+        "rev": "a8f88e9a61ae2500e6351c104c493c551ad98120",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tonybanters",
+        "repo": "oxwm",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "home-manager": "home-manager",
         "nixpkgs": "nixpkgs",
         "nixvim": "nixvim",
+        "oxwm": "oxwm",
         "unstable": "unstable"
       }
     },

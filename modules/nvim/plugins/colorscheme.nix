@@ -1,11 +1,30 @@
-{ ... }:
+{ config, ... }:
+let 
+  colors = import ./colors/${config.theme}.nix;
+in
 {
   programs.nixvim = {
+    # colorschemes = {
+    #   gruvbox = {
+    #     enable = true;
+    #     settings = {
+    #       transparent_mode = true;
+    #     };
+    #   };
+    # };
     colorschemes = {
-      gruvbox = {
+      base16 = {
         enable = true;
+        setUpBar = false;
+        colorscheme = colors;
         settings = {
-          transparent_mode = true;
+          cmp = true;
+          illuminate = true;
+          indentblankline = true;
+          lsp_semantic = true;
+          mini_completion = true;
+          telescope = true;
+          telescope_borders = false;
         };
       };
     };
