@@ -1,9 +1,13 @@
 {
   config,
   pkgs,
+  lib,
   inputs,
   ...
 }:
+let
+  colorScheme = inputs.nix-colors.colorScheme.everforest-dark-hard;
+in
 {
   imports = [
     ./hardware.nix
@@ -19,6 +23,9 @@
     inputs.home-manager.nixosModules.home-manager
   ];
 
+  # the linux console.
+  console.colors = lib.mapAttrsToList (base: value: value) colorScheme.palette;
+
   # enable flakes
   nix.settings.experimental-features = [
     "nix-command"
@@ -27,7 +34,7 @@
 
   # enable home manager
   home-manager = {
-    extraSpecialArgs = { inherit inputs; };
+    extraSpecialArgs = { inherit inputs colorScheme; };
     users = {
       "daksh" = import ../../home/daksh/home.nix;
     };
