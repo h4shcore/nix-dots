@@ -36,7 +36,7 @@
     ../../modules/fuzzel/fuzzel.nix
     ../../modules/starship/starship.nix
     ../../modules/kitty/kitty.nix
-    # ../../modules/hyprland/hyprland.nix
+    ../../modules/hyprland/hyprland.nix
     # ../../modules/waybar/waybar.nix
     ../../modules/qutebrowser/qutebrowser.nix
     ../../modules/direnv/direnv.nix

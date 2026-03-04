@@ -24,31 +24,31 @@
   };
 
   # Enable Hyprland
-  # programs.hyprland.enable = true;
-  # programs.hyprland.withUWSM = true;
+  programs.hyprland.enable = true;
+  programs.hyprland.withUWSM = true;
 
   # Enable Niri
-  programs.niri.enable = true;
+  # programs.niri.enable = true;
 
   # for hyprland
-  # xdg.portal = {
-  #   enable = true;
-  #   extraPortals = [
-  #     pkgs.xdg-desktop-portal
-  #     pkgs.xdg-desktop-portal-gtk
-  #     pkgs.xdg-desktop-portal-hyprland
-  #   ];
-  #   config.common.default = "*";
-  # };
-
   xdg.portal = {
     enable = true;
-    # extraPortals = [
-    #   pkgs.xdg-desktop-portal-gtk
-    #   pkgs.xdg-desktop-portal-gnome
-    # ];
-    # config.common.default = "*";
+    extraPortals = [
+      pkgs.xdg-desktop-portal
+      pkgs.xdg-desktop-portal-gtk
+      pkgs.xdg-desktop-portal-hyprland
+    ];
+    config.common.default = "*";
   };
+
+  # xdg.portal = {
+  #   enable = true;
+  #   # extraPortals = [
+  #   #   pkgs.xdg-desktop-portal-gtk
+  #   #   pkgs.xdg-desktop-portal-gnome
+  #   # ];
+  #   # config.common.default = "*";
+  # };
 
   # Enable the GNOME Desktop Environment.
   # services.xserver.displayManager.gdm.enable = true;
