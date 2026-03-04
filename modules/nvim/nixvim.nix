@@ -3,6 +3,7 @@
   imports = [
     ./highlight.nix
     ./keymaps.nix
+    ./options.nix
     ./plugins/colorizer.nix
     ./plugins/colorscheme.nix
     ./plugins/cord.nix
