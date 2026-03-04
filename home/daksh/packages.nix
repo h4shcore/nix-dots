@@ -96,7 +96,7 @@
     xwayland-satellite
 
     # gtk
-    gruvbox-gtk-theme
+    everforest-gtk-theme
 
     # go
     go

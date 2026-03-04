@@ -58,6 +58,11 @@
       recursive = true;
     };
 
+    ".icons/Everforest-Dark" ={
+      source = ./static/Everforest-Dark;
+      recursive = true;
+    };
+
     ".config/qutebrowser/gruvbox.css" = {
       source = ../../modules/qutebrowser/gruvbox.css;
     };

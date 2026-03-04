@@ -16,16 +16,6 @@
           inner-pad = "10";
           icons-enabled = "false";
         };
-        # colors = {
-        #   background = "282828ff";
-        #   text = "ebdbb2ff";
-        #   match = "fe8019ff";
-        #   selection = "3c3836ff";
-        #   selection-match = "fabd2fff";
-        #   selection-text = "ebdbb2ff";
-        #   # border = "504945ff";
-        #   border = "ebdbb2ff";
-        # };
         colors = {
           background = "151515ff";
           text = "E8E3E3ff";
