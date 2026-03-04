@@ -24,7 +24,7 @@ in
   ];
 
   # the linux console.
-  console.colors = lib.mapAttrsToList (base: value: value) colorScheme.palette;
+  # console.colors = lib.mapAttrsToList (base: value: value) colorScheme.palette;
 
   # enable flakes
   nix.settings.experimental-features = [

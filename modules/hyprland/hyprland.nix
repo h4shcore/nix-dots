@@ -33,7 +33,7 @@
       # "col.inactive_border" = "rgb(${colorScheme.palette.base01})";
     };
     decoration = {
-      rounding = 0;
+      rounding = 10;
       active_opacity = 1.00;
       inactive_opacity = 0.95;
     };
