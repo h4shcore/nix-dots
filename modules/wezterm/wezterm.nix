@@ -1,4 +1,4 @@
-{ ... }:
+{ colorScheme, ... }:
 {
   programs.wezterm = {
     enable = true;
@@ -19,38 +19,36 @@
          saturation = 0.9,
          brightness = 0.8,
        }
-       config.colors = {
-        foreground = '#e8e3e3',
-        background = '#151515',
+config.colors = {
+         foreground = "#${colorScheme.palette.base05}",
+         background = "#${colorScheme.palette.base00}",
+         cursor_bg = "#${colorScheme.palette.base05}",
+         cursor_border = "#${colorScheme.palette.base05}",
+         cursor_fg = "#${colorScheme.palette.base00}",
+         selection_bg = "#${colorScheme.palette.base02}",
+         selection_fg = "#${colorScheme.palette.base05}",
 
-        cursor_bg = '#e8e3e3',
-        cursor_fg = '#151515',
-        cursor_border = '#e8e3e3',
-
-        selection_fg = '#151515',
-        selection_bg = '#e8e3e3',
-
-        ansi = {
-          '#151515',
-          '#B66467',
-          '#8C977D',
-          '#D9BC8C',
-          '#8DA3B9',
-          '#A988B0',
-          '#8AA6A2',
-          '#E8E3E3',
-        },
+         ansi = {
+            "#${colorScheme.palette.base00}",
+            "#${colorScheme.palette.base08}",
+            "#${colorScheme.palette.base0B}",
+            "#${colorScheme.palette.base0A}",
+            "#${colorScheme.palette.base0D}",
+            "#${colorScheme.palette.base0E}",
+            "#${colorScheme.palette.base0C}",
+            "#${colorScheme.palette.base05}",
+         };
         brights = {
-          '#424242',
-          '#B66467',
-          '#8C977D',
-          '#D9BC8C',
-          '#8DA3B9',
-          '#A988B0',
-          '#8AA6A2',
-          '#E8E3E3',
-        },
-      }
+           "#${colorScheme.palette.base03}",
+           "#${colorScheme.palette.base08}",
+           "#${colorScheme.palette.base0B}",
+           "#${colorScheme.palette.base0A}",
+           "#${colorScheme.palette.base0D}",
+           "#${colorScheme.palette.base0E}",
+           "#${colorScheme.palette.base0C}",
+           "#${colorScheme.palette.base07}",
+        };
+       }
       config.mouse_bindings = {
         {
           event = { Down = { streak = 1, button = { WheelUp = 1 } } },

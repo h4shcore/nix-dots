@@ -1,5 +1,6 @@
 {
   pkgs,
+  colorScheme,
   ...
 }:
 {
@@ -28,8 +29,8 @@
       gaps_in = 5;
       gaps_out = 10;
       border_size = 2;
-      "col.active_border" = "rgb(e8e3e3)";
-      "col.inactive_border" = "rgba(15151500)";
+      "col.active_border" = "rgb(${colorScheme.palette.base04})";
+      # "col.inactive_border" = "rgb(${colorScheme.palette.base01})";
     };
     decoration = {
       rounding = 0;

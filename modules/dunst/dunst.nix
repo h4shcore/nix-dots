@@ -1,4 +1,4 @@
-{ ... }:
+{ colorScheme, ... }:
 {
   services.dunst.enable = true;
 
@@ -7,8 +7,8 @@
       mouse_left_click = "do_action";
       mouse_right_click = "context";
       mouse_middle_click = "close_current";
-      frame_color = "#e8e3e3";
-      separator_color = "auto";
+      frame_color = "#${colorScheme.palette.base03}";
+      separator_color = "#${colorScheme.palette.base03}";
       font = "Iosevka Nerd Font 12";
       shrink = true;
       word_wrap = "yes";
@@ -24,23 +24,23 @@
 
     base16_low = {
       msg_urgency = "low";
-      background = "#151515";
-      foreground = "#e8e3e3";
+      background = "#${colorScheme.palette.base00}";
+      foreground = "#${colorScheme.palette.base07}";
       timeout = 3;
     };
 
     base16_normal = {
       msg_urgency = "normal";
-      background = "#151515";
-      foreground = "#e8e3e3";
+      background = "#${colorScheme.palette.base00}";
+      foreground = "#${colorScheme.palette.base07}";
       timeout = 3;
     };
 
     base16_critical = {
       msg_urgency = "critical";
-      background = "#151515";
-      foreground = "#e8e3e3";
-      frame_color = "#b66467";
+      background = "#${colorScheme.palette.base00}";
+      foreground = "#${colorScheme.palette.base08}";
+      frame_color = "#${colorScheme.palette.base08}";
       timeout = 5;
     };
   };

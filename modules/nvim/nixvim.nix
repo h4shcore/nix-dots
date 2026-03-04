@@ -1,9 +1,9 @@
 { ... }:
 {
   imports = [
-    ./highlight.nix
+    # ./highlight.nix
     ./keymaps.nix
-    ./options.nix
+    # ./options.nix
     ./plugins/colorizer.nix
     ./plugins/colorscheme.nix
     # ./plugins/cord.nix
