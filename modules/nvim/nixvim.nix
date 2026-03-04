@@ -1,6 +1,7 @@
 { ... }:
 {
   imports = [
+    ./highlight.nix
     ./keymaps.nix
     ./plugins/colorizer.nix
     ./plugins/colorscheme.nix
