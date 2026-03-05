@@ -2,9 +2,9 @@
 {
   programs.bat = {
     enable = true;
-    config = {
-      theme = "everforest-dark-hard";
-    };
+    # config = {
+    #   theme = "";
+    # };
     extraPackages = with pkgs.bat-extras; [
       batdiff
     ];
