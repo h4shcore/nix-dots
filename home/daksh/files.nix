@@ -53,6 +53,33 @@
 
     '';
 
+    ".config/vesktop/themes/everforest.css".text = ''
+      @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:wght@100;300;400;500;700&display=swap');
+      @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css');
+
+      :root {
+        --accentcolor: 167,192,128;
+        --accentcolor2: 255,115,250;
+        --linkcolor: 127,187,179;
+        --mentioncolor: 230,152,117;
+        --textbrightest: 211,198,170;
+        --textbrighter: 211,198,170;
+        --textbright: 211,198,170;
+        --textdark: 211,198,170;
+        --textdarker: 211,198,170;
+        --textdarkest: 211,198,170;
+        --font: Iosevka Nerd Font;
+        --backgroundaccent: 61,72,77;
+        --backgroundprimary: 52,63,68;
+        --backgroundsecondary: 45,53,59;
+        --backgroundsecondaryalt: 45,53,59;
+        --backgroundtertiary: 45,53,59;
+        --backgroundfloating: 52,63,68;
+        --settingsicons: 1;
+      }
+    '';
+
+
     ".config/vesktop/themes/gruvbox-dark.css".text = ''
 
       * {
