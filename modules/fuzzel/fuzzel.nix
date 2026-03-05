@@ -17,7 +17,7 @@
           icons-enabled = "false";
         };
         colors = {
-          background = "${colorScheme.palette.base00}ff";
+          background = "${colorScheme.palette.base00}ee";
           text = "${colorScheme.palette.base05}ff";
           placeholder = "${colorScheme.palette.base03}ff";
           prompt = "${colorScheme.palette.base05}ff";
