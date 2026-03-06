@@ -83,7 +83,8 @@
 
       {
         mode = "n";
-        key = "<leader>bd";
+        # key = "<leader>bd";
+        key = "<leader>x";
         action = "<cmd>bdelete<cr>";
         options = {
           desc = "Delete buffer";
