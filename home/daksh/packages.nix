@@ -37,7 +37,6 @@
     woomer # zoom tool for wayland
 
     github-cli
-    hut
 
     # man pages
     # linux-manual
