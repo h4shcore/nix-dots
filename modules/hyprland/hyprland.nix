@@ -193,6 +193,17 @@
       "$mainMod SHIFT, 9, movetoworkspace, 9"
       "$mainMod SHIFT, 0, movetoworkspace, 10"
 
+      # Move workspace
+      "$mainMod, u, workspace, m-1"
+      "$mainMod, o, workspace, m+1"
+
+      # Move active window
+      "$mainMod SHIFT, u, movetoworkspace, m-1"
+      "$mainMod SHIFT, o, movetoworkspace, m+1"
+
+      # Move to last workspace
+      "$mainMod ,Tab, workspace, previous"
+
       # Special workspace (scratchpad)
       "$mainMod SHIFT, S, movetoworkspace, special:magic"
       "$mainMod, S, togglespecialworkspace, magic"
