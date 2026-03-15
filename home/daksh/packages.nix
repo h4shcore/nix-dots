@@ -136,7 +136,6 @@
     # osu-lazer-bin
 
     godot
-    raylib
 
     # fonts
     noto-fonts
