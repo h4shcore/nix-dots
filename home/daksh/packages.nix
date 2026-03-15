@@ -135,6 +135,9 @@
     mesa
     # osu-lazer-bin
 
+    godot
+    raylib
+
     # fonts
     noto-fonts
     noto-fonts-cjk-sans
