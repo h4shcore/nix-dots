@@ -7,7 +7,7 @@
         enable_gpu = true;
       };
       styles = {
-        theme = "default";
+        theme = "gruvbox";
       };
     };
   };

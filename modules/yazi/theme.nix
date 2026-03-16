@@ -1,96 +1,190 @@
 { ... }:
 {
   mgr = {
-    cwd = { 
-      fg = "#a7c080";
+    cwd = {
+      fg = "#83a598";
     };
 
-    # Hovered
     hovered = {
-      fg = "#2c313a";
-      bg = "#d3c6aa";
+      reversed = true;
+      bold = true;
     };
     preview_hovered = {
       underline = true;
     };
-  find_keyword = {
-    fg = "#d3c6aa";
-    italic = true;
-  };
-    find_position = { fg = "#e8a2af"; bg = "reset"; italic = true; }; # Soft red
 
-    # Marker
-    marker_selected = { fg = "#a7c080"; bg = "#a7c080";}; # Soft Green
-    marker_copied = { fg = "#d3c6aa"; bg = "#d3c6aa";};   # Soft beige
-    marker_cut = { fg = "#e8a2af"; bg = "#e8a2af";};      # Soft red
+    find_keyword = {
+      fg = "#b8bb26";
+      italic = true;
+    };
+    find_position = {
+      fg = "#fe8019";
+      bg = "reset";
+      italic = true;
+    };
 
-    # Tab
-    tab_active = { fg = "#2c313a"; bg = "#d3c6aa"; };  # Dark background, Soft beige foreground
-    tab_inactive = { fg = "#a7c080"; bg = "#434c5e"; }; # Soft Green on muted dark
+    marker_copied = {
+      fg = "#8ec07c";
+      bg = "#8ec07c";
+    };
+    marker_cut = {
+      fg = "#d3869b";
+      bg = "#d3869b";
+    };
+    marker_marked = {
+      fg = "#83a598";
+      bg = "#83a598";
+    };
+    marker_selected = {
+      fg = "#fbf1c7";
+      bg = "#fbf1c7";
+    };
+
+    tab_active = {
+      fg = "#282828";
+      bg = "#a89984";
+    };
+    tab_inactive = {
+      fg = "#a89984";
+      bg = "#504945";
+    };
     tab_width = 1;
 
-    # Border
+    count_copied = {
+      fg = "#282828";
+      bg = "#8ec07c";
+    };
+    count_cut = {
+      fg = "#282828";
+      bg = "#d3869b";
+    };
+    count_selected = {
+      fg = "#282828";
+      bg = "#fbf1c7";
+    };
+
     border_symbol = "│";
-    border_style = { fg = "#687d68"; };
+    border_style = {
+      fg = "#665c54";
+    };
   };
 
   status = {
-    separator_open = "";
-    separator_close = "";
-    separator_style = { fg = "#434c5e"; bg = "#434c5e"; }; # Muted dark
 
-    # Mode
-    mode_normal = { fg = "#2c313a"; bg = "#d3c6aa"; bold = true; };
-    mode_select = { fg = "#2c313a"; bg = "#a7c080"; bold = true; };
-    mode_unset = { fg = "#2c313a"; bg = "#e8a2af"; bold = true; }; 
+    mode_normal = {
+      fg = "#282828";
+      bg = "#4b4235";
+      bold = true;
+    };
 
-    # Progress
-    progress_label = { fg = "#ffffff"; bold = true;};
-    progress_normal = { fg = "#d3c6aa"; bg = "#434c5e";}; # Soft beige on muted dark
-    progress_error = { fg = "#e8a2af"; bg = "#434c5e";};  # Soft red on muted dark
+    #
+    mode_select = {
+      fg = "#282828";
+      bg = "#fe8019";
+      bold = true;
+    };
+    mode_unset = {
+      fg = "#282828";
+      bg = "#b8bb26";
+      bold = true;
+    };
 
-    # Permissions
-    permissions_t = { fg = "#d3c6aa";};# Soft beige
-    permissions_r = { fg = "#d3c6aa";};# Soft beige
-    permissions_w = { fg = "#e8a2af";};# Soft red
-    permissions_x = { fg = "#a7c080";};# Soft Green
-    permissions_s = { fg = "#687d68";};# Muted Green
+    progress_label = {
+      fg = "#ebdbb2";
+      bold = true;
+    };
+    progress_normal = {
+      fg = "#504945";
+      bg = "#3c3836";
+    };
+    progress_error = {
+      fg = "#fb4934";
+      bg = "#3c3836";
+    };
+
+    permissions_t = {
+      fg = "#504945";
+    };
+    permissions_r = {
+      fg = "#b8bb26";
+    };
+    permissions_w = {
+      fg = "#fb4934";
+    };
+    permissions_x = {
+      fg = "#b8bb26";
+    };
+    permissions_s = {
+      fg = "#665c54";
+    };
   };
 
   select = {
-    border = { fg = "#d3c6aa";};# Soft beige
-    active = { fg = "#e8a2af";};# Soft red
-    inactive = {};
+    border = {
+      fg = "#458588";
+    };
+    active = {
+      fg = "#d3869b";
+      bold = true;
+    };
+    inactive = { };
   };
 
   input = {
-    border = { fg = "#d3c6aa";};    # Soft beige
-    title = {};
-    value = {};
-    selected = { reversed = true; };
+    border = {
+      fg = "#ebdbb2";
+    };
+    title = { };
+    value = { };
+    selected = {
+      reversed = true;
+    };
   };
 
   tasks = {
-    border = { fg = "#d3c6aa"; };    # Soft beige
-    title = {};
-    hovered = { underline = true; };
+    border = {
+      fg = "#504945";
+    };
+    title = { };
+    hovered = {
+      underline = true;
+    };
   };
 
   which = {
-    mask = { bg = "#2c313a";};           # Dark background
-    cand = { fg = "#a7c080";};           # Soft Green
-    rest = { fg = "#d3c6aa";};           # Soft beige
-    desc = { fg = "#e8a2af";};           # Soft red
+    mask = {
+      bg = "#3c3836";
+    };
+    cand = {
+      fg = "#83a598";
+    };
+    rest = {
+      fg = "#928374";
+    };
+    desc = {
+      fg = "#fe8019";
+    };
     separator = "  ";
-    separator_style = { fg = "#434c5e";};# Muted dark
+    separator_style = {
+      fg = "#504945";
+    };
   };
 
   help = {
-    on = { fg = "#e8a2af";};                    # Soft red
-    run = { fg = "#a7c080";};                  # Soft Green
-    desc = { fg = "#d3c6aa";};                  # Soft beige
-    hovered = { bg = "#434c5e"; bold = true;};  # Muted dark background
-    footer = { fg = "#2c313a"; bg = "#d3c6aa";};# Dark background, Soft beige foreground
+    on = {
+      fg = "#83a598";
+    };
+    run = {
+      fg = "#d3869b";
+    };
+    hovered = {
+      reversed = true;
+      bold = true;
+    };
+    footer = {
+      fg = "#3c3836";
+      bg = "#a89984";
+    };
   };
 
   notify = {
@@ -107,27 +201,34 @@
 
   filetype = {
     rules = [
-        { 
-          mime = "image/*";
-          fg = "#a7c080";
-        }
-
-      # Videos
-      { mime = "video/*"; fg = "#d3c6aa";}
-      { mime = "audio/*"; fg = "#d3c6aa";}
-
-      # Archives
-      { mime = "application/zip"; fg = "#e8a2af";}
-      { mime = "application/gzip"; fg = "#e8a2af";}
-      { mime = "application/x-tar"; fg = "#e8a2af";}
-      { mime = "application/x-bzip"; fg = "#e8a2af";}
-      { mime = "application/x-bzip2"; fg = "#e8a2af";}
-      { mime = "application/x-7z-compressed"; fg = "#e8a2af";}
-      { mime = "application/x-rar"; fg = "#e8a2af";}
-
-      # Fallback
-      { name = "*"; fg = "#d3c6aa";}
-      { name = "*/"; fg = "#d3c6aa";}
+      {
+        mime = "image/*";
+        fg = "#d3869b";
+      }
+      {
+        mime = "{audio,video}/*";
+        fg = "#fabd2f";
+      }
+      {
+        mime = "application/*zip";
+        fg = "#fb4934";
+      }
+      {
+        mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}";
+        fg = "#fb4934";
+      }
+      {
+        mime = "application/{pdf,doc,rtf,vnd.*}";
+        fg = "#689d6a";
+      }
+      {
+        name = "*";
+        fg = "#ebdbb2";
+      }
+      {
+        name = "*/";
+        fg = "#83a598";
+      }
     ];
   };
 }
