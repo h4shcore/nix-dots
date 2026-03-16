@@ -21,13 +21,17 @@
 
   gtk = {
     enable = true;
+    # theme = {
+    #   name = "${colorScheme.slug}";
+    #   package =
+    #     let
+    #       nix-colors-lib = inputs.nix-colors.lib.contrib { inherit pkgs; };
+    #     in
+    #     nix-colors-lib.gtkThemeFromScheme { scheme = colorScheme; };
+    # };
     theme = {
-      name = "${colorScheme.slug}";
-      package =
-        let
-          nix-colors-lib = inputs.nix-colors.lib.contrib { inherit pkgs; };
-        in
-        nix-colors-lib.gtkThemeFromScheme { scheme = colorScheme; };
+      name = "Everforest-Dark-BL";
+      package = pkgs.everforest-gtk-theme;
     };
     iconTheme = {
       name = "Papirus-Dark";
