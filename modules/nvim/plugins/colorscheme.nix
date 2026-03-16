@@ -1,11 +1,20 @@
 { ... }:
 {
   programs.nixvim = {
+    # colorschemes = {
+    #   everforest = {
+    #     enable = true;
+    #     settings = {
+    #       transparent_background = 2;
+    #     };
+    #   };
+    # };
     colorschemes = {
-      everforest = {
+      gruvbox = {
         enable = true;
         settings = {
-          transparent_background = 2;
+          transparent_mode = true;
+          terminal_colors = true;
         };
       };
     };

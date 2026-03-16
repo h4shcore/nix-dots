@@ -97,6 +97,7 @@
 
     # gtk
     # everforest-gtk-theme
+    gruvbox-gtk-theme
 
     # go
     go

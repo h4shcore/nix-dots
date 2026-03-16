@@ -29,13 +29,17 @@
     #     in
     #     nix-colors-lib.gtkThemeFromScheme { scheme = colorScheme; };
     # };
+    # theme = {
+    #   name = "Everforest-Dark-BL";
+    #   package = pkgs.everforest-gtk-theme;
+    # };
     theme = {
-      name = "Everforest-Dark-BL";
-      package = pkgs.everforest-gtk-theme;
+      name = "Gruvbox-Dark";
+      package = pkgs.gruvbox-gtk-theme;
     };
     iconTheme = {
-      name = "Papirus-Dark";
-      package = pkgs.papirus-icon-theme;
+      name = "Gruvbox-Plus-Dark";
+      package = pkgs.gruvbox-plus-icons;
     };
     cursorTheme = {
       name = "Bibata-Modern-Classic";
