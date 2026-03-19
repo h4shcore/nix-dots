@@ -29,11 +29,11 @@
     };
     decoration = {
       rounding = 10;
-      active_opacity = 0.95;
-      inactive_opacity = 0.90;
+      active_opacity = 1.00;
+      inactive_opacity = 0.95;
 
       blur = {
-        enabled = true;
+        enabled = false;
         size = 8;
         passes = 2;
         new_optimizations = true;
@@ -41,7 +41,7 @@
 
     };
     animations = {
-      enabled = "yes";
+      enabled = "no";
 
       bezier = [
         "specialWorkSwitch, 0.05, 0.7, 0.1, 1"
