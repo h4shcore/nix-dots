@@ -29,11 +29,11 @@
     };
     decoration = {
       rounding = 10;
-      active_opacity = 1.00;
-      inactive_opacity = 0.95;
+      active_opacity = 0.95;
+      inactive_opacity = 0.90;
 
       blur = {
-        enabled = false;
+        enabled = true;
         size = 8;
         passes = 2;
         new_optimizations = true;
