@@ -10,6 +10,13 @@
   services.libinput.enable = true;
 
   # Enable the X11 windowing system.
+  services.xserver.windowManager.dwm = {
+    enable = true;
+    package = pkgs.dwm.overrideAttrs {
+      src = ../../conf/suckless/dwm;
+    };
+  };
+
   services.xserver = {
     enable = true;
     displayManager = {
