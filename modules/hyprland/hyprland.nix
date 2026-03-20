@@ -41,7 +41,7 @@
 
     };
     animations = {
-      enabled = "no";
+      enabled = "yes";
 
       bezier = [
         "specialWorkSwitch, 0.05, 0.7, 0.1, 1"

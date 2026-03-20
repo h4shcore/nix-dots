@@ -134,7 +134,7 @@
     steam
     mesa-demos
     mesa
-    osu-lazer-bin
+    # osu-lazer-bin
 
     godot
 
