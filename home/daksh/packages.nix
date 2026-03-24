@@ -10,7 +10,7 @@
   home.packages = with pkgs; [
     firefox
     fastfetch
-    speedtest-rs
+    # speedtest-rs
     yt-dlp
     ffmpeg
     dust
@@ -20,9 +20,9 @@
     nix-search-cli
     spotify
     # psst # spotify in rust (early development)
-    equibop
+    # equibop
+    # discord
     vesktop
-    discord
     qbittorrent
     # stremio
     swayimg
@@ -32,7 +32,7 @@
     pavucontrol
     udiskie
     jq
-    socat
+    # socat
 
     woomer # zoom tool for wayland
 
@@ -46,21 +46,19 @@
     xfce.thunar
 
     # ebook reader
-    foliate
+    # foliate
 
     wl-clipboard
     hyprpolkitagent
     wireplumber
     slurp
     hyprshot
-    wireplumber
-    slurp
-    hyprshot
+    # slurp
     wlsunset
 
     # app launcher
-    wmenu
-    rofi
+    # wmenu
+    # rofi
     fuzzel
 
     # doc viewer
@@ -70,11 +68,11 @@
     swayimg
 
     # libreoffice
-    libreoffice-qt6-fresh
-    hunspell # spellcheck
+    # libreoffice-qt6-fresh
+    # hunspell # spellcheck
 
     # file management
-    nemo
+    # nemo
     trash-cli
 
     # screen mirror
@@ -100,10 +98,10 @@
     gruvbox-gtk-theme
 
     # go
-    go
+    # go
 
     # java
-    zulu
+    # zulu
 
     # c/c++
     # gcc14
@@ -111,7 +109,7 @@
     gnumake
 
     # rust
-    rustup
+    # rustup
 
     vscode
     # zed-editor
@@ -135,8 +133,6 @@
     mesa-demos
     mesa
     # osu-lazer-bin
-
-    godot
 
     # fonts
     noto-fonts
