@@ -225,6 +225,17 @@
         };
       }
 
+      # oil
+      {
+        action = ":Oil<CR>";
+        key = "<leader>o";
+        options = {
+          silent = true;
+          noremap = true;
+          desc = "Oil Mapping";
+        };
+      }
+
       # comment: line
       {
         mode = [
