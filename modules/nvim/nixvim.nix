@@ -14,6 +14,7 @@
     ./plugins/lsp.nix
     ./plugins/markview.nix
     ./plugins/noice.nix
+    ./plugins/oil.nix
     ./plugins/treesitter.nix
     ./plugins/devicons.nix
     ./plugins/gitsigns.nix
