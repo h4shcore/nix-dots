@@ -16,4 +16,7 @@
     cyme
     unrar
   ];
+
+  # Enable command-not-found package suggestions
+  programs.command-not-found.enable = true;
 }
