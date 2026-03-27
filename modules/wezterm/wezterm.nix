@@ -19,7 +19,7 @@
          saturation = 0.9,
          brightness = 0.8,
        }
-config.colors = {
+       config.colors = {
          foreground = "#${colorScheme.palette.base05}",
          background = "#${colorScheme.palette.base00}",
          cursor_bg = "#${colorScheme.palette.base05}",
@@ -71,6 +71,11 @@ config.colors = {
            key = '%',
            mods = 'CTRL|SHIFT',
            action = wezterm.action.SplitHorizontal{domain="CurrentPaneDomain"},
+         },
+         {
+             key = 'Z',
+             mods = 'CTRL|SHIFT',
+             action = wezterm.action.TogglePaneZoomState,
          },
          {
            key = 'h',
