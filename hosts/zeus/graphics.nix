@@ -1,0 +1,51 @@
+{
+  config,
+  pkgs,
+  lib,
+  ...
+}:
+let
+  nvidia-offload = pkgs.writeShellScriptBin "nvi" ''
+    export __NV_PRIME_RENDER_OFFLOAD=1
+    export __NV_PRIME_RENDER_OFFLOAD_PROVIDER=NVIDIA-G0
+    export __GLX_VENDOR_LIBRARY_NAME=nvidia
+    export __VK_LAYER_NV_optimus=NVIDIA_only
+    exec "$@"
+  '';
+in
+{
+  environment.systemPackages = with pkgs; [
+    nvidia-offload
+  ];
+  hardware = {
+    graphics = {
+      enable32Bit = true;
+      enable = true;
+      package = pkgs.mesa;
+      package32 = pkgs.pkgsi686Linux.mesa;
+    };
+    nvidia = {
+      package = config.boot.kernelPackages.nvidia_x11;
+      open = true;
+      prime = {
+        #      sync.enable = true;
+        offload = {
+          enable = true;
+        };
+        intelBusId = "PCI:0:2:0";
+        nvidiaBusId = "PCI:1:0:0";
+      };
+      modesetting = {
+        enable = true;
+      };
+      powerManagement = {
+        enable = true;
+        finegrained = true;
+      };
+    };
+  };
+  services.xserver = {
+    videoDrivers = [ "nvidia" ];
+    dpi = 96;
+  };
+}
