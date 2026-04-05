@@ -18,7 +18,7 @@
     brave
     yazi
     nix-search-cli
-    spotify
+    # spotify
     # psst # spotify in rust (early development)
     # equibop
     # discord
