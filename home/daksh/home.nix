@@ -45,6 +45,7 @@
     ../../modules/wezterm/wezterm.nix
     ../../modules/yazi/yazi.nix
     ../../modules/zoxide/zoxide.nix
+    ../../modules/spotify/spotify.nix
     inputs.nixvim.homeModules.nixvim
     inputs.nix-colors.homeManagerModules.default
   ];
