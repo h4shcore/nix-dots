@@ -11,8 +11,8 @@
     firefox
     fastfetch
     # speedtest-rs
-    yt-dlp
-    ffmpeg
+    # yt-dlp
+    # ffmpeg
     dust
     htop-vim
     brave
@@ -43,8 +43,6 @@
     # man-pages
     # man-pages-posix
 
-    xfce.thunar
-
     # ebook reader
     # foliate
 
@@ -53,7 +51,6 @@
     wireplumber
     slurp
     hyprshot
-    # slurp
     wlsunset
 
     # app launcher
@@ -73,6 +70,7 @@
 
     # file management
     # nemo
+    xfce.thunar
     trash-cli
 
     # screen mirror
@@ -140,7 +138,6 @@
     noto-fonts-color-emoji
     font-awesome
     nerd-fonts.iosevka
-    nerd-fonts.jetbrains-mono
-    nerd-fonts.gohufont
+    nerd-fonts.lilex
   ];
 }

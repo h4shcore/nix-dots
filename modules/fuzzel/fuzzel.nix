@@ -7,7 +7,8 @@
       settings = {
         main = {
           layer = "overlay";
-          font = "Iosevka Nerd Font:size=12";
+          # font = "Iosevka Nerd Font:size=12";
+          font = "Lilex Nerd Font:size=12";
           prompt = "'> '";
           lines = "15";
           width= "50";
