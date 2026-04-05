@@ -46,6 +46,7 @@
     ../../modules/yazi/yazi.nix
     ../../modules/zoxide/zoxide.nix
     ../../modules/spotify/spotify.nix
+    inputs.spicetify-nix.homeManagerModules.spicetify
     inputs.nixvim.homeModules.nixvim
     inputs.nix-colors.homeManagerModules.default
   ];

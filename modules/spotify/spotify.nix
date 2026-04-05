@@ -10,6 +10,6 @@ in {
       shuffle
     ];
     theme = spicePkgs.themes.onepunch;
-    colorScheme = "Gruvbox";
+    # colorScheme = "gruvbox";
   };
 }
