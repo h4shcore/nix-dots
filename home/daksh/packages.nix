@@ -52,6 +52,7 @@
     slurp
     hyprshot
     wlsunset
+    quickshell
 
     # app launcher
     # wmenu
