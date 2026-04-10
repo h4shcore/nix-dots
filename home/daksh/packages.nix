@@ -49,7 +49,6 @@
     wl-clipboard
     hyprpolkitagent
     wireplumber
-    slurp
     hyprshot
     wlsunset
     quickshell
