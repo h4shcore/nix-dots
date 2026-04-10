@@ -16,6 +16,7 @@
           vertical-pad = "10";
           inner-pad = "10";
           icons-enabled = "false";
+          dpi-aware = "auto";
         };
         colors = {
           background = "${colorScheme.palette.base00}ee";
