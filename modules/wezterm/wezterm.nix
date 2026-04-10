@@ -12,8 +12,8 @@
        config.window_padding = {
          left = 10,
          right = 10,
-         top = 10,
-         bottom = 0,
+         top = 6,
+         bottom = 2,
        }
        config.adjust_window_size_when_changing_font_size = true
        config.inactive_pane_hsb = {
