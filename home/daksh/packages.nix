@@ -90,7 +90,7 @@
     # libsForQt5.qtstyleplugin-kvantum
     # kdePackages.xwaylandvideobridge
 
-    xwayland-satellite
+    # xwayland-satellite
 
     # gtk
     # everforest-gtk-theme
