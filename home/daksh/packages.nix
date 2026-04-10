@@ -81,13 +81,13 @@
     qalculate-gtk
 
     # output display configuration app
-    nwg-displays
+    # nwg-displays
     nwg-look # gnome settings
 
     # kde qt stuff
-    kdePackages.qt6ct
-    libsForQt5.qt5ct
-    libsForQt5.qtstyleplugin-kvantum
+    # kdePackages.qt6ct
+    # libsForQt5.qt5ct
+    # libsForQt5.qtstyleplugin-kvantum
     # kdePackages.xwaylandvideobridge
 
     xwayland-satellite
@@ -103,7 +103,6 @@
     # zulu
 
     # c/c++
-    # gcc14
     gcc
     gnumake
 
