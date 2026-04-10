@@ -10,10 +10,10 @@
        -- config.color_scheme = 'Gruvbox dark, hard (base16)'
        config.enable_tab_bar = false
        config.window_padding = {
-         left = 20,
-         right = 20,
-         top = 20,
-         bottom = 20,
+         left = 10,
+         right = 10,
+         top = 10,
+         bottom = 0,
        }
        config.adjust_window_size_when_changing_font_size = true
        config.inactive_pane_hsb = {

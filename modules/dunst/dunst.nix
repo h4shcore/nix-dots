@@ -9,7 +9,7 @@
       mouse_middle_click = "close_current";
       frame_color = "#${colorScheme.palette.base03}";
       separator_color = "#${colorScheme.palette.base03}";
-      font = "Iosevka Nerd Font 12";
+      font = "Lilex Nerd Font 12";
       shrink = true;
       word_wrap = "yes";
       offset = "(9, 9)";
