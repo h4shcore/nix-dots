@@ -51,7 +51,6 @@
     wireplumber
     hyprshot
     wlsunset
-    quickshell
 
     # app launcher
     # wmenu
